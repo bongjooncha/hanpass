@@ -1,25 +1,27 @@
 .App {
-  text-align: center;
   background-color: #282c34;
   width: 100%;
+  height: 1000px;
 }
 
-
-
-.App-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 .BottomNav{
-  background-color: aliceblue;
+  background-color: #f0f8ff;
   width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 120px;
+  border-radius: 20px 20px 0 0;
+}
+
+.BottomNav li {
+  display: block;
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.BottomNav li a{
+  border: black solid 1px;
+  background-size: 100px 100%;
 }
