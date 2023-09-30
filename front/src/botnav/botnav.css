@@ -1,0 +1,27 @@
+
+/* BottomNav */
+.BottomNav{
+    background-color: #fffafa;
+    width: 432px;
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .BottomNav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+  
+  .BottomNav li{
+    display: block;
+    width: 20% ;
+    text-align: center;
+  }
+  
+  .BottomNav li a img{ 
+    height: 73px;
+  }
+  
