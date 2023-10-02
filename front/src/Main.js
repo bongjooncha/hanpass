@@ -11,6 +11,8 @@ import wallet from "./mainimg/wallet.JPG"
 import qrget from "./mainimg/qrget.JPG"
 import qrgive from "./mainimg/qrgive.JPG"
 
+import line4 from "./mainimg/forthline.JPG"
+
 import Botnav from './botnav/botnav.js'
 
 function Main() {
@@ -30,11 +32,16 @@ function Main() {
           <p>안녕하세요.<br/> 사용자님</p>
           <img id="ticket" src ={ticket}></img>
         </div>
+
         <img id ="wallet" src={wallet}></img>
+
         <div id="qr">
           <img src={qrget}></img><a>QR 송금받기</a>
           <img src= {qrgive}></img><a>QR 송금받기</a>
         </div>
+
+        <img id="line4" src={line4}></img>
+
       </main>
       <Botnav/>
       <footer>

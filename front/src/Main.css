@@ -87,8 +87,16 @@
 
   background-color: rgb(4, 4, 77);
   display: flex;
+  justify-content: center;
 }
 
 #qr a{
   color: white;
+}
+
+/* 4thline */
+#line4{
+  scale: 0.9;
+  margin-top: 6px;
+  margin-left: -14px;
 }
