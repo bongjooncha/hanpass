@@ -1,3 +1,4 @@
+import {useState} from 'react';
 import './botnav.css'
 
 import m1 from "./m1.JPG";
@@ -11,21 +12,26 @@ import arrow from "./arrow.JPG";
 import acccre from "./page/accountcreate.JPG"
 
 function Botnav(){
+    const [headerText, setHeaderText]=useState('');
+    const changeText =(newText)=>{
+        setHeaderText(newText);
+    }
+
     return(
         <div className ="BotNavDiv">
             <navbar className = "BottomNav">
                 <ul>
-                <li><a href="#"><img src ={m1} alt="계좌관리"/></a></li>
-                <li><a href="#"><img src ={m2} alt="내역관리"/></a></li>
-                <li><a href="#"><img src ={m3} alt="이베트"/></a></li>
-                <li><a href="#"><img src ={m4} alt="고객센터"/></a></li>
-                <li><a href="#"><img src ={m5} alt="설정"/></a></li>
+                <li onClick={()=>changeText('계좌관리')}><a href="#"><img src ={m1} alt="계좌관리"/></a></li>
+                <li onClick={()=>changeText('내역관리')}><a href="#"><img src ={m2} alt="내역관리"/></a></li>
+                <li onClick={()=>changeText('이벤트')}><a href="#"><img src ={m3} alt="이베트"/></a></li>
+                <li onClick={()=>changeText('고객센터')}><a href="#"><img src ={m4} alt="고객센터"/></a></li>
+                <li onClick={()=>changeText('설정')}><a href="#"><img src ={m5} alt="설정"/></a></li>
                 </ul>
             </navbar>
             <div id='tab'>
                 <div id="main">
-                    <img src={arrow}></img>
-                    <h3>계좌관리</h3>
+                    <button><img src={arrow}></img></button>
+                    <h3>{headerText}</h3>
                 </div>
 
                 <div id="accman">
