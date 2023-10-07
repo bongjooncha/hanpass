@@ -6,11 +6,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: block;
+  display: flex;
+}
+
+/* hover */
+button:hover{
+  cursor: pointer;
+}
+
+li:hover{
+  cursor: pointer;
 }
 
 
-#hn{
+
+/* #hn{
   margin-top: 23px;
   margin-right: 11px;
   position: relative;
@@ -18,4 +28,4 @@ body {
   float: right;
   border: black 1px solid;
 }
-
+ */

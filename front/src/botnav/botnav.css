@@ -2,20 +2,20 @@
 /* BottomNav */
 .BotNavDiv{
   display: block;
-  height: 900px;
   background-color: #fffafa;
   position: fixed;
   width: 432px;
   bottom: 0;
   border-radius: 10px 10px 0 0;
   padding: 0;
+  transition: height 0.5s ease;
 }
 
 /* main button */
 .BottomNav{
   display: block;
   height: 73px;
-  background-color: #878787;
+  background-color: #ffffff;
   width: 432px;
 }
   
@@ -30,6 +30,9 @@
   width: 20% ;
   text-align: center;
 }
+.BottomNav li:hover{
+  cursor: pointer;
+}
 
 .BottomNav li a img{ 
   height: 73px;
@@ -38,7 +41,7 @@
 /* tab */
 #tab #main{
   display: flex;
-  background-color: bisque;
+  background-color: rgb(255, 255, 255);
   height: 73px;
   width: 100%;
   
@@ -55,6 +58,7 @@
   display: flex;
   align-items: center;
 }
+
 #tab #main button img{
   margin-left:-8px;
 }

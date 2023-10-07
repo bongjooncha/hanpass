@@ -44,8 +44,6 @@ function Main() {
 
       </main>
       <Botnav/>
-      <footer>
-      </footer>
     </div>
   );
 }
