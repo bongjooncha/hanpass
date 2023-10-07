@@ -63,72 +63,8 @@
   margin-left : 20px
 }
 
-/* account management */
-#accman{
-  display: none;
-  text-align: center;
-  margin-top: 10px; 
-}
-#accman img{
-  scale: 1.2;
-}
 
-/* account history management */
-#achisman{
-  /* display: none; */
-}
 
-#achisman #headachisman{
-  border-bottom: rgba(128, 128, 128, 0.24) 2px solid;
-  height: 78px;
-}
-
-#headachisman button{
-  display: none;
-  height: 60px;
-  width: 200px;
-  margin: 10px 6px;
-  border-radius: 10px;
-  border-color: #878787;
-  font-size: 17px;
-}
-
-#dateachisman{
-  border-bottom: rgba(128, 128, 128, 0.24) 2px solid;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#dateachisman a{
-  font-weight: 600;
-  margin: 0 2%;
-}
-
-#memachisman #time{
-  height: 50px;
-  display: flex;
-  align-items: center;
-}
-
-#memachisman #time a{
-  margin: 0 4%;
-  font-size: 14px;
-}
-
-#memachisman #time #line{
-  margin: 0;
-  height: 14px;
-  border: 0.5px solid grey;
-}
-
-#memachisman a{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 600px;
-}
 
 
 /* setting */
