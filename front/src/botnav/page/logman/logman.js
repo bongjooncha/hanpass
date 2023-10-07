@@ -3,7 +3,7 @@ import './logman.css'
 function logman(){
     return(
         <div id="logman">
-            <div id = "headachisman">
+            <div id = "logmanhead">
                 <button>해외송금 보내기</button>
                 <button>국내송금</button>
                 <button>연락처 송금</button>
