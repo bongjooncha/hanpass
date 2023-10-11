@@ -96,7 +96,7 @@
 
 /* 4thline */
 #line4{
-  scale: 0.9;
+  height: 108px;
   margin-top: 6px;
-  margin-left: -14px;
+  justify-content: center;
 }

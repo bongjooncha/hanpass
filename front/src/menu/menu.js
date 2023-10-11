@@ -8,11 +8,7 @@ function Menu(){
     let leftmenustat =false;
     function topmenu(){
       const leftmenu = document.querySelector(".menu");
-      if (!leftmenustat){
-        leftmenu.classList.add('active');
-      }else{
-        leftmenu.classList.remove('active');
-      }
+      leftmenu.classList.remove('active');
       leftmenustat = !leftmenustat;
     }
 
