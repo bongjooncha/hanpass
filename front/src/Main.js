@@ -16,13 +16,24 @@ import line4 from "./mainimg/forthline.JPG"
 import Botnav from './botnav/botnav.js'
 
 function Main() {
+  let leftmenustat =false;
+  function topmenu(){
+    const leftmenu = document.querySelector(".menu");
+    if (!leftmenustat){
+      leftmenu.classList.add('active');
+    }else{
+      leftmenu.classList.remove('active');
+    }
+    leftmenustat = !leftmenustat;
+  }
+
   return (
     <div className="Main">
       <navbar className = "TopNav">
         <ul>
-          <li><img id='menu' src={menu}></img></li>
-          <li><img id="bell" src={bell}></img></li>
-          <li><img id = 'mypage' src={mypage}></img></li>
+          <li onClick={()=>{topmenu();}}><img id='menuimg' src={menu}></img></li>
+          <li><img id="bellimg" src={bell}></img></li>
+          <li><img id = 'mypageimg' src={mypage}></img></li>
         </ul>
       </navbar>
 
@@ -40,7 +51,7 @@ function Main() {
           <img src= {qrgive}></img><a>QR 송금받기</a>
         </div>
 
-        <img id="line4" src={line4}></img>
+        <div><img id="line4" src={line4}></img></div>
 
       </main>
       <Botnav/>

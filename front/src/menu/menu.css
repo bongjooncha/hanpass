@@ -1,7 +1,12 @@
-#menu{
-    float: left;
+.menu{
     width: 432px;
-  }
+    transition: transform 0.5s ease;
+    background-color: white;
+}
+
+.active{
+  transform: translate(100%);
+}
 
 #menunav{
   display: flex;

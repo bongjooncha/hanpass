@@ -1,6 +1,6 @@
 .Main main{
     background-color: #cbcbcb;
-    width: 100%;
+    width: 432px;
     height: 800px;
     display: block;
     text-align: center;
@@ -25,19 +25,19 @@
   margin-top: 18px;
 }
 
-.TopNav li #menu{
+.TopNav li #menuimg{
   height: 50px;
   width: 50px;
   margin-left: 10px;
 }
 
-.TopNav li #bell{
+.TopNav li #bellimg{
   height: 45x;
   width: 45px;
   margin-left: 10px;
 }
 
-.TopNav li #mypage{
+.TopNav li #mypageimg{
   width: 58px;
   height: 48px;
   margin-left: 245px;

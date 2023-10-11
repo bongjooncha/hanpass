@@ -4,10 +4,22 @@ import arrow from './arrow.JPG';
 import mypage from './mypage.JPG'
 
 function Menu(){
+
+    let leftmenustat =false;
+    function topmenu(){
+      const leftmenu = document.querySelector(".menu");
+      if (!leftmenustat){
+        leftmenu.classList.add('active');
+      }else{
+        leftmenu.classList.remove('active');
+      }
+      leftmenustat = !leftmenustat;
+    }
+
     return(
-        <div id="menu">
+        <div className="menu">
             <div id="menunav">
-                <img id='arrow' src ={arrow}></img>
+                <img onClick={()=>{topmenu();}} id='arrow' src ={arrow}></img>
                 <h2>전체 서비스 보기</h2>
                 <img id='mypage' src = {mypage}></img>
             </div>
