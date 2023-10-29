@@ -46,7 +46,7 @@ function Menu(){
                 <ul>
                     <p><h3>생활·편의</h3></p>
                     <li><img src={mobile}></img>모바일</li>
-                    <li><img src={public_trans}></img>쿄통카드 충전</li>
+                    <li><img src={public_trans}></img>교통카드 충전</li>
                     <li><img src={shipping}></img>해외배송 & 픽업</li>
                     <li><img src={hotel}></img>호텔 예약</li>
                     <li><img src={travle_insu}></img>여행 보험</li>
