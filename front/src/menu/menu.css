@@ -2,6 +2,7 @@
     width: 432px;
     transition: transform 0.5s ease;
     background-color: white;
+    /* display: none; */
 }
 
 .active{

@@ -13,6 +13,8 @@ import qrgive from "./mainimg/qrgive.JPG"
 
 import line4 from "./mainimg/forthline.JPG"
 
+import nav from "./mainimg/nav.JPG"
+
 import Botnav from './botnav/botnav.js'
 
 function Main() {
@@ -47,6 +49,8 @@ function Main() {
         </div>
 
         <div><img id="line4" src={line4}></img></div>
+
+        <div><img id="main_nav" src={nav}></img></div>
 
       </main>
       <Botnav/>
