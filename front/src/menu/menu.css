@@ -59,7 +59,14 @@ h2{
 }
 
 #menulist ul li{
+  display: flex;
   list-style: none;
-  margin: 15px 0 0 30px;
+  margin: 15px 0 0 15px;
   font-size: 20px;
+  align-items: center;
+}
+
+#menulist ul li img{
+  width: 30px;
+  margin-right: 15px;
 }
