@@ -1,7 +1,9 @@
+.Main{
+  background-color:rgb(246,246,246);  
+}
 .Main main{
-    background-color: #cbcbcb;
     width: 432px;
-    height: 800px;
+    height: 1100px;
     display: block;
     text-align: center;
 }
@@ -17,7 +19,7 @@
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: rgb(91, 91, 255);
+  background-color: rgb(247,246,242);
 }
 
 .TopNav li{
@@ -49,7 +51,7 @@
   margin-top: 13px;
   width: 100%;
   height: 60px;
-  background-color: aqua;
+  background-color: rgb(246, 246, 246);
   font-weight: 800;
   align-items: center;
 }
@@ -85,7 +87,7 @@
   height: 80px;
   border-radius: 10px 10px;
 
-  background-color: rgb(4, 4, 77);
+  background-color: rgb(4, 35, 79);
   display: flex;
   justify-content: center;
 }

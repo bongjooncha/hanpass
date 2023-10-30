@@ -28,7 +28,7 @@ function Botnav(){
     // 높이 변환하기
     const [navHight,setNavHight]=useState(100);
     const exNav=()=>{
-        setNavHight(1015);
+        setNavHight(1025);
     }
     const reNav=()=>{
         setNavHight(100);
