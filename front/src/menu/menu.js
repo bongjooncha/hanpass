@@ -3,6 +3,12 @@ import './menu.css';
 import arrow from './arrow.JPG';
 import mypage from './mypage.JPG'
 
+import trafcard from './icon/trafficcard.png'
+import wal_qr from './icon/wal_qr.png'
+import wal_qrscan from './icon/wal_qrscan.png'
+import wal_usb from './icon/wal_usb.png'
+import wal_wal from './icon/wal_wal.png'
+
 function Menu(){
 
     let leftmenustat =false;
@@ -45,10 +51,10 @@ function Menu(){
                 </ul>
                 <ul>
                     <p><h3>월렛</h3></p>
-                    <li>충전하기</li>
-                    <li>월렛 내역 보기</li>
-                    <li>QR 송금하기</li>
-                    <li>QR 송금받기</li>
+                    <li><img src={wal_qr}></img>충전하기</li>
+                    <li><img src={wal_qrscan}></img>월렛 내역 보기</li>
+                    <li><img src={wal_usb}></img>QR 송금하기</li>
+                    <li><img src={wal_wal}></img>QR 송금받기</li>
                 </ul>
             </div>
         </div>
