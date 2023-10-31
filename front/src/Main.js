@@ -78,7 +78,7 @@ function Main() {
                 안녕하세요.
                 <br /> 사용자님
               </p>
-              <img id="ticket" src={ticket}></img>
+              {/* <img id="ticket" src={ticket}></img> */}
             </div>
 
             <img id="wallet" src={wallet}></img>
