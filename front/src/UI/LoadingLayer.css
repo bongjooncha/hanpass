@@ -1,0 +1,10 @@
+.loading {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 432px;
+  background-color: rgb(139, 139, 252);
+}
+.loading img {
+  scale: 0.7;
+}
