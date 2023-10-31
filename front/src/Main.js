@@ -16,6 +16,7 @@ import line4 from "./mainimg/forthline.JPG";
 import nav from "./mainimg/nav.JPG";
 
 import Botnav from "./botnav/botnav.js";
+
 import { useEffect, useState } from "react";
 import LoadingLayer from "./UI/LoadingLayer";
 
@@ -29,10 +30,14 @@ function Main() {
 
   useEffect(() => {
     window.onload = function () {
-      console.log("로딩중@");
       setIsLoading(false);
     };
   }, []);
+
+  function openPop(){
+    
+
+  }
 
   return (
     <>
@@ -82,11 +87,11 @@ function Main() {
               <img src={qrget}></img>
               <a>QR 송금받기</a>
               <img src={qrgive}></img>
-              <a>QR 송금받기</a>
+              <a>QR 송금받기</a>S
             </div>
 
             <div>
-              <img id="line4" src={line4}></img>
+              <img onClick={openPop} id="line4" src={line4}></img>
             </div>
 
             <div>
