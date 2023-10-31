@@ -36,7 +36,7 @@ function Main() {
 
   return (
     <>
-      {isLoading && (
+      {/* {isLoading && (
         <>
           <div>로딩중</div>
           <LoadingLayer
@@ -45,7 +45,7 @@ function Main() {
             }}
           />
         </>
-      )}
+      )} */}
       {!isLoading && (
         <div className="Main">
           <navbar className="TopNav">
