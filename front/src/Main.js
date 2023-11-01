@@ -1,4 +1,6 @@
 import "./Main.css";
+import React, { useEffect, useState } from "react";
+
 import bell from "./frontnavimg/bell.JPG";
 import menu from "./frontnavimg/menu.JPG";
 import mypage from "./frontnavimg/mypage.JPG";
@@ -17,27 +19,27 @@ import nav from "./mainimg/nav.JPG";
 
 import Botnav from "./botnav/botnav.js";
 
-import { useEffect, useState } from "react";
-import LoadingLayer from "./UI/LoadingLayer";
+// import LoadingLayer from "./UI/LoadingLayer";s
 
-function Main() {
-  const [isLoading, setIsLoading] = useState(true);
-  let leftmenustat = false;
+import "./popup/qrpopup.css";
+
+function Main({ setPoped }) {
   function topmenu() {
     const leftmenu = document.querySelector(".menu");
     leftmenu.classList.add("active");
   }
 
+  function qrpop() {
+    const qrpopup = document.querySelector(".qrpopup");
+    qrpopup.classList.add("show");
+  }
+
+  const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
     window.onload = function () {
       setIsLoading(false);
     };
   }, []);
-
-  function openPop(){
-    
-
-  }
 
   return (
     <>
@@ -87,11 +89,17 @@ function Main() {
               <img src={qrget}></img>
               <a>QR 송금받기</a>
               <img src={qrgive}></img>
-              <a>QR 송금받기</a>S
+              <a>QR 송금받기</a>
             </div>
 
             <div>
-              <img onClick={openPop} id="line4" src={line4}></img>
+              <img
+                onClick={() => {
+                  qrpop();
+                }}
+                id="line4"
+                src={line4}
+              ></img>
             </div>
 
             <div>

@@ -1,14 +1,14 @@
-import './App.css';
-import Main from './Main.js'
-import Menu from "./menu/menu.js"
-import Qrpopup from './popup/qrpopup';
+import "./App.css";
+import Main from "./Main.js";
+import Menu from "./menu/menu.js";
+import Qrpopup from "./popup/qrpopup";
 
 function App() {
   return (
     <div className="App">
-      <Menu/>
+      <Menu />
       <Main />
-      <Qrpopup/>
+      <Qrpopup />
     </div>
   );
 }
