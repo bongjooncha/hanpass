@@ -10,7 +10,7 @@ function App() {
       <Menu />
       <Main />
       <Qrpopup />
-      {/* <Intro /> */}
+      <Intro />
     </div>
   );
 }
