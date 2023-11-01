@@ -15,7 +15,7 @@ import qrgive from "./mainimg/qrgive.JPG";
 
 import line4 from "./mainimg/forthline.JPG";
 
-import nav from "./mainimg/nav.JPG";
+import nav from "./mainimg/nav.png";
 
 import Botnav from "./botnav/botnav.js";
 

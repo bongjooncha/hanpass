@@ -1,0 +1,32 @@
+.intro {
+  transform: translate(432px, 0);
+  position: fixed;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  transform: translate(217px, -833px);
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.462);
+  cursor: pointer;
+}
+
+.blue-screen {
+  width: 432px; /* 크기를 432px로 고정합니다. */
+  height: 100vh; /* 크기를 화면 높이 (100vh)로 설정합니다. */
+  background-color: blue;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  transition: width 5s, height 5s; /* 애니메이션 속성을 추가합니다. */
+}
+
+.blue-screen.show {
+  width: 432px;
+  height: 100vh;
+  display: block;
+  transition: width 5s, height 5s;
+}

@@ -104,3 +104,8 @@
 
   cursor: pointer;
 }
+
+/* 5thline */
+#img5th {
+  position: fixed;
+}
