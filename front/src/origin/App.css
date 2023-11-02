@@ -2,7 +2,5 @@
   margin-left: -432px;
   width: 432px;
   display: flex;
-  background-color: blue;
   z-index: 1;
-  /* overflow: hidden; */
 }

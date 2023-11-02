@@ -21,7 +21,7 @@ import Botnav from "./botnav/botnav.js";
 
 // import LoadingLayer from "./UI/LoadingLayer";s
 
-import "./popup/qrpopup.css";
+import "./origin/popup/qrpopup.css";
 
 function Main({ setPoped }) {
   function topmenu() {

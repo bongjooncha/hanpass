@@ -1,6 +1,8 @@
 .intro {
+  transition: transform 2s, display 0s 3s; /* transform 속성은 2초 동안 애니메이션을 적용하며, display 속성은 3초 후에 변경 */
   transform: translate(432px, 0);
   position: fixed;
+  display: block;
 }
 
 .box {
@@ -8,25 +10,17 @@
   height: 100px;
   transform: translate(217px, -833px);
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.462);
+  background-color: rgba(0, 0, 0, 0);
   cursor: pointer;
+  display: block;
 }
 
 .blue-screen {
-  width: 432px; /* 크기를 432px로 고정합니다. */
-  height: 100vh; /* 크기를 화면 높이 (100vh)로 설정합니다. */
-  background-color: blue;
+  width: 0px;
+  height: 0vh;
+  scale: 0;
+  background-color: rgb(186, 186, 216);
   position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  display: none;
-  transition: width 5s, height 5s; /* 애니메이션 속성을 추가합니다. */
-}
-
-.blue-screen.show {
-  width: 432px;
-  height: 100vh;
-  display: block;
-  transition: width 5s, height 5s;
+  transform: translate(217px, -833px);
+  transition: width 1s ease-in, height 1s ease-in, scale 1s ease-in;
 }
