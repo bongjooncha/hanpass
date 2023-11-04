@@ -1,9 +1,9 @@
-import "./Main.css";
+import "./Main2.css";
 import React, { useEffect, useState } from "react";
 
-import bell from "./frontnavimg/bell.JPG";
-import menu from "./frontnavimg/menu.JPG";
-import mypage from "./frontnavimg/mypage.JPG";
+import bell from "../png/main_img/bell.png";
+import menu from "../png/main_img/menu.png";
+import mypage from "../png/main_img/mypage.png";
 
 import coun from "./mainimg/coun.JPG";
 import ticket from "./mainimg/ticket.JPG";
@@ -23,7 +23,7 @@ import Botnav from "../botnav/botnav.js";
 
 function Main({ setPoped }) {
   function topmenu() {
-    const leftmenu = document.querySelector(".menu");
+    const leftmenu = document.querySelector(".menu2");
     leftmenu.classList.add("active");
   }
 
@@ -41,8 +41,8 @@ function Main({ setPoped }) {
 
   return (
     <>
-      <div className="Main">
-        <navbar className="TopNav">
+      <div className="Main2">
+        <navbar className="TopNav2">
           <ul>
             <li
               onClick={() => {

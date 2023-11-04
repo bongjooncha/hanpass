@@ -6,26 +6,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: flex;
-  flex-direction: row;
 }
 
 /* hover */
-button:hover {
-  cursor: pointer;
-}
-
-li:hover {
+button,li:hover {
   cursor: pointer;
 }
 
 #root {
-  width: 100%;
+  width: 1920px;
   height: min-content;
+  display: flex;
 }
 
-.mainblock {
-  width: 20%;
-  height: 100vh;
-  background-color: blue;
+.mainblock_1 {
+  width: 312px;
+  background-color: rgb(13, 13, 66);
+  z-index: 2;
+}
+
+.mainblock_2 {
+  width: 432px;
+  background-color: rgb(13, 13, 66);
+  z-index: 2;
+  margin-left: 432px;
+}
+
+.mainblock_3 {
+  width: 312px;
+  background-color: rgb(13, 13, 66);
+  z-index: 2;
+  margin-left: 432px;
 }

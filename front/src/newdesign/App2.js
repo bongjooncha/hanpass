@@ -1,16 +1,16 @@
 import "./App2.css";
-import Main from "./Main.js";
-import Menu from "./menu/menu.js";
-import Qrpopup from "./popup/qrpopup.js";
+import Main2 from "./Main2.js";
+import Menu2 from "./menu/menu2.js";
+import Qrpopup2 from "./popup/qrpopup2.js";
 
-function App1() {
+function App2() {
   return (
     <div className="App">
-      <Menu />
-      <Main />
-      <Qrpopup />
+      <Menu2 />
+      <Main2 />
+      <Qrpopup2 />
     </div>
   );
 }
 
-export default App1;
+export default App2;

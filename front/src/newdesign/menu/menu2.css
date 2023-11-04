@@ -1,15 +1,15 @@
-.menu{
+.menu2{
     width: 432px;
     transition: transform 0.5s ease;
     background-color: white;
-    /* display: none; */
+    z-index: 2;
 }
 
 .active{
   transform: translate(100%);
 }
 
-#menunav{
+#menunav2{
   display: flex;
   align-items: center;
   border-bottom: 3px rgb(161, 161, 161) solid;
@@ -36,38 +36,37 @@ h2{
   margin-left: 30%;
 }
 
-#menulist{
+#menulist2{
   margin-top: 80px;
   width: 432px;
 }
 
 
-#menulist ul{
+#menulist2 ul{
   margin: 0;
   padding: 0;
   margin-bottom: 30px;
 }
 
-#menulist ul p{
+#menulist2 ul p{
   background-color: rgb(247, 247, 255);
   width: 100%;
   margin: 0;
   height: 50px;
   padding-top: 1px;
 }
-#menulist ul h3{
+#menulist2 ul h3{
   margin: 3% 0 0 3%;
 }
 
-#menulist ul li{
+#menulist2 ul li{
   display: flex;
   list-style: none;
   margin: 15px 0 0 15px;
-  font-size: 20px;
-  align-items: center;
+  text-align: left;
 }
 
-#menulist ul li img{
-  width: 30px;
+#menulist2 ul li img{
+  scale: 0.5;
   margin-right: 15px;
 }

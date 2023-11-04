@@ -1,13 +1,13 @@
-import './menu.css';
+import './menu2.css';
 
 import arrow from './arrow.JPG';
 import mypage from './mypage.JPG';
 
-import mobile from "./img/mobile.png";
-import public_trans from "./img/public_trans.png";
-import shipping from "./img/shipping.png";
-import hotel from "./img/hotel.png";
-import travle_insu from "./img/travle_insu.png";
+import mobile from "../../png/left_menu_img/com_phone.png";
+import public_trans from "../../png/left_menu_img/com_tra.png";
+import shipping from "../../png/left_menu_img/com_shipping.png";
+import hotel from "../../png/left_menu_img/com_hotel.png";
+import travle_insu from "../../png/left_menu_img/com_trainsu.png";
 import utility_bill from "./img/utility_bill.png";
 import express_bus from "./img/exp_bus.png";
 import airline from "./img/airline.png"; 
@@ -25,40 +25,33 @@ import wallet_log from "./img/wallet_log.png";
 import qr_give from "./img/qr_give.png";
 import qr_get from "./img/qr_get.png";
 
-
-import trafcard from './icon/trafficcard.png'
-import wal_qr from './icon/wal_qr.png'
-import wal_qrscan from './icon/wal_qrscan.png'
-import wal_usb from './icon/wal_usb.png'
-import wal_wal from './icon/wal_wal.png'
-
 function Menu(){
 
     let leftmenustat =false;
     function topmenu(){
-      const leftmenu = document.querySelector(".menu");
+      const leftmenu = document.querySelector(".menu2");
       leftmenu.classList.remove('active');
       leftmenustat = !leftmenustat;
     }
 
     return(
-        <div className="menu">
-            <div id="menunav">
+        <div className="menu2">
+            <div id="menunav2">
                 <img onClick={()=>{topmenu();}} id='arrow' src ={arrow}></img>
                 <h2>전체 서비스 보기</h2>
                 <img id='mypage' src = {mypage}></img>
             </div>
-            <div id='menulist'>
+            <div id='menulist2'>
                 <ul>
                     <p><h3>생활·편의</h3></p>
-                    <li><img src={mobile}></img>선불폰 충전</li>
-                    <li><img src={public_trans}></img>교통카드 충전</li>
-                    <li><img src={shipping}></img>해외배송 & 픽업</li>
-                    <li><img src={hotel}></img>호텔 예약</li>
-                    <li><img src={travle_insu}></img>여행 보험</li>
-                    <li><img src={utility_bill}></img>공과금 납부</li>
-                    <li><img src={express_bus}></img>고속버스 예약</li>
-                    <li><img src={airline}></img>항공권 예약</li>
+                    <li><img src={mobile}/></li>
+                    <li><img src={public_trans}/></li>
+                    <li><img src={shipping}/></li>
+                    <li><img src={hotel}/></li>
+                    <li><img src={travle_insu}/></li>
+                    <li><img src={utility_bill}/></li>
+                    <li><img src={express_bus}/></li>
+                    <li><img src={airline}/></li>
                 </ul>
                 <ul>
                     <p><h3>뱅킹</h3></p>
