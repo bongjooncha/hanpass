@@ -1,0 +1,61 @@
+.qrpopup {
+  position: fixed;
+  height: 100vh;
+  width: 432px;
+  background-color: rgba(0, 0, 0, 0.285);
+  transform: translate(432px, 0);
+  display: flex;
+  display: none;
+}
+
+.show {
+  display: flex;
+}
+
+#qrpopupbox {
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 40vh;
+  margin-left: 28px;
+  height: 150px;
+  width: 380px;
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  font-weight: 500;
+}
+
+#qrpopupbox p {
+  margin-top: 30px;
+}
+
+#qrpopupbut {
+  margin: 0;
+  display: flex;
+}
+
+#qrpopupbut div {
+  display: flex;
+  width: 216px;
+  height: 52px;
+  margin-top: 10px;
+
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+#qrpopupbut div:nth-child(1) {
+  border-radius: 0 0 0 9px;
+  background-color: rgb(22, 133, 240);
+  color: rgb(244, 245, 247);
+}
+
+#qrpopupbut div:nth-child(2) {
+  border-radius: 0 0 9px 0;
+  background-color: rgb(244, 245, 247);
+  color: rgb(22, 133, 240);
+}

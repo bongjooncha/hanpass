@@ -1,0 +1,73 @@
+.menu{
+    width: 432px;
+    transition: transform 0.5s ease;
+    background-color: white;
+    /* display: none; */
+}
+
+.active{
+  transform: translate(100%);
+}
+
+#menunav{
+  display: flex;
+  align-items: center;
+  border-bottom: 3px rgb(161, 161, 161) solid;
+  background-color: white;
+  width: 432px;
+  height: 70px;
+  position: fixed;
+}
+
+#arrow{
+  width: 30px;
+  height: 30px;
+  margin-left: 4%;
+  margin-right: 1%;
+}
+
+h2{
+  font-size: 20px;
+}
+
+#mypage{
+  width: 45px;
+  height: 38px;
+  margin-left: 30%;
+}
+
+#menulist{
+  margin-top: 80px;
+  width: 432px;
+}
+
+
+#menulist ul{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+#menulist ul p{
+  background-color: rgb(247, 247, 255);
+  width: 100%;
+  margin: 0;
+  height: 50px;
+  padding-top: 1px;
+}
+#menulist ul h3{
+  margin: 3% 0 0 3%;
+}
+
+#menulist ul li{
+  display: flex;
+  list-style: none;
+  margin: 15px 0 0 15px;
+  font-size: 20px;
+  align-items: center;
+}
+
+#menulist ul li img{
+  width: 30px;
+  margin-right: 15px;
+}
