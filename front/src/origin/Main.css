@@ -1,0 +1,111 @@
+.Main {
+  background-color: rgb(246, 246, 246);
+}
+.Main main {
+  width: 432px;
+  height: 1100px;
+  display: block;
+  text-align: center;
+}
+
+/* TopNav */
+.TopNav {
+  height: max-content;
+  width: 100%;
+}
+
+.TopNav ul {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(247, 246, 242);
+}
+
+.TopNav li {
+  display: block;
+  margin-top: 18px;
+}
+
+.TopNav li #menuimg {
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}
+
+.TopNav li #bellimg {
+  height: 45x;
+  width: 45px;
+  margin-left: 10px;
+}
+
+.TopNav li #mypageimg {
+  width: 58px;
+  height: 48px;
+  margin-left: 245px;
+}
+
+/* hi user */
+.hiuser {
+  display: flex;
+  margin-top: 13px;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(246, 246, 246);
+  font-weight: 800;
+  align-items: center;
+}
+
+#coun {
+  margin-left: 10px;
+  height: 60px;
+  width: 60px;
+  margin-right: 8px;
+}
+
+.hiuser p {
+  margin-right: 180px;
+}
+
+#ticket {
+  scale: 0.7;
+}
+
+/* wallet */
+#wallet {
+  margin-top: 13px;
+  width: 94%;
+}
+
+/* qr */
+#qr {
+  align-items: center;
+  margin-left: 3%;
+  margin-top: 13px;
+
+  width: 94%;
+  height: 80px;
+  border-radius: 10px 10px;
+
+  background-color: rgb(4, 35, 79);
+  display: flex;
+  justify-content: center;
+}
+
+#qr a {
+  color: white;
+}
+
+/* 4thline */
+#line4 {
+  height: 108px;
+  margin-top: 6px;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+/* 5thline */
+#img5th {
+  position: fixed;
+}
