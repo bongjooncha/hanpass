@@ -4,7 +4,7 @@ import arrow from "./arrow.JPG";
 function logman() {
   return (
     <div id="logman">
-      <div id="logmanhead">
+      <a id="logmanhead">
         <button>해외송금 보내기</button>
         <button>국내송금</button>
         <button>연락처 송금</button>
@@ -13,7 +13,7 @@ function logman() {
         <button>결제</button>
         <button>ATM 출금</button>
         <button>국내 선불폰 충전</button>
-      </div>
+      </a>
       <div id="dateachisman">
         <button>
           <img id="leftbut" src={arrow}></img>

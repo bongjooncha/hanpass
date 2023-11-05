@@ -19,7 +19,7 @@ import nav from "./mainimg/nav.png";
 
 import Botnav from "../botnav/botnav.js";
 
-function Main({ setPoped }) {
+function Main() {
   function topmenu() {
     const leftmenu = document.querySelector(".menu");
     leftmenu.classList.add("active");
@@ -29,13 +29,6 @@ function Main({ setPoped }) {
     const qrpopup = document.querySelector(".qrpopup");
     qrpopup.classList.add("show");
   }
-
-  const [isLoading, setIsLoading] = useState(true);
-  useEffect(() => {
-    window.onload = function () {
-      setIsLoading(false);
-    };
-  }, []);
 
   return (
     <>

@@ -13,61 +13,50 @@
   height: max-content;
   width: 100%;
 }
-
 .TopNav2 ul {
   display: flex;
   width: 100%;
+  height: 70px;
   margin: 0;
   padding: 0;
   background-color: rgb(247, 246, 242);
 }
-
 .TopNav2 li {
-  display: block;
-  margin-top: 18px;
-}
-
-.TopNav2 li #menuimg {
-  scale: 0.75;
-  margin-left: 10px;
-}
-
-.TopNav2 li #bellimg {
-  height: 45x;
-  width: 45px;
-  margin-left: 10px;
-}
-
-.TopNav2 li #mypageimg {
-  width: 58px;
-  height: 48px;
-  margin-left: 245px;
-}
-
-/* hi user */
-.hiuser {
   display: flex;
-  margin-top: 13px;
-  width: 100%;
-  height: 60px;
-  background-color: rgb(246, 246, 246);
-  font-weight: 800;
   align-items: center;
 }
-
-#coun {
+.TopNav2 li #menuimg {
+  height: 34px;
+  margin-left: 15px;
+}
+.TopNav2 li #bellimg {
+  height: 32px;
   margin-left: 10px;
-  height: 60px;
-  width: 60px;
-  margin-right: 8px;
+}
+.TopNav2 li #ticket {
+  height: 50px;
+  margin-left: 200px;
+}
+.TopNav2 li #mypageimg {
+  height: 38px;
+  margin-left: 20px;
 }
 
-.hiuser p {
-  margin-right: 180px;
+/* exchange */
+#exchange{
+  margin-top: 13px;
+  margin-left: 3%;
+  width: 94%;
+  height: 150px;
+  background-color: rgb(214,229,252);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  text-align: start;
 }
 
-#ticket {
-  scale: 0.7;
+#exchange #h4{
 }
 
 /* wallet */
@@ -107,4 +96,14 @@
 /* 5thline */
 #img5th {
   position: fixed;
+}
+
+
+/* community */
+#community{
+  margin-left: 3%;
+  width: 94%;
+  border: 1px rgb(162, 162, 162) solid;
+  border-radius: 10px;
+  display: flex;
 }

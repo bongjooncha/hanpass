@@ -1,21 +1,15 @@
 import "./Main2.css";
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 import bell from "../png/main_img/bell.png";
 import menu from "../png/main_img/menu.png";
 import mypage from "../png/main_img/mypage.png";
 
-import coun from "./mainimg/coun.JPG";
-import ticket from "./mainimg/ticket.JPG";
+import ticket from "../png/main_img/ticket_1.png";
 
 import wallet from "./mainimg/wallet.JPG";
 
-import qrget from "./mainimg/qrget.JPG";
-import qrgive from "./mainimg/qrgive.JPG";
-
 import line4 from "./mainimg/forthline.JPG";
-
-import nav from "./mainimg/nav.png";
 
 import Botnav from "../botnav/botnav.js";
 
@@ -26,18 +20,6 @@ function Main({ setPoped }) {
     const leftmenu = document.querySelector(".menu2");
     leftmenu.classList.add("active");
   }
-
-  function qrpop() {
-    const qrpopup = document.querySelector(".qrpopup");
-    qrpopup.classList.add("show");
-  }
-
-  const [isLoading, setIsLoading] = useState(true);
-  useEffect(() => {
-    window.onload = function () {
-      setIsLoading(false);
-    };
-  }, []);
 
   return (
     <>
@@ -55,42 +37,31 @@ function Main({ setPoped }) {
               <img id="bellimg" src={bell}></img>
             </li>
             <li>
+              <img id="ticket" src={ticket}></img>
+            </li>
+            <li>
               <img id="mypageimg" src={mypage}></img>
             </li>
           </ul>
         </navbar>
-
         <main>
-          <div className="hiuser">
-            <img id="coun" src={coun}></img>
-            <p>
-              안녕하세요.
-              <br /> 사용자님
-            </p>
-            {/* <img id="ticket" src={ticket}></img> */}
+          <div id ="exchange">
+            <h4>KRW/USD = 1,312.00 </h4>
           </div>
-
-          <img id="wallet" src={wallet}></img>
-
-          <div id="qr">
-            <img src={qrget}></img>
-            <a>QR 송금받기</a>
-            <img src={qrgive}></img>
-            <a>QR 송금받기</a>
-          </div>
-
+          <img id="wallet" src={wallet}/>
           <div>
-            <img
-              onClick={() => {
-                qrpop();
-              }}
-              id="line4"
-              src={line4}
-            ></img>
+            <img id="line4" src={line4} />
           </div>
-
-          <div>
-            <img id="main_nav" src={nav}></img>
+          <div id = "community">
+            <div id = "selec_commu">
+              <div id="coun_commu">
+                <h4>한국 인기 글</h4>
+                <a>김패스</a><a>11/30 20:22</a>
+                <p>한패스 송금수수료 실화??</p>
+                <p>한패스 송금수수료 너무 쌈;; 말이안됨</p>
+                <a>한국 계시판 <img src="./mainimg/forthline.JPG"/></a>
+              </div>
+            </div>
           </div>
         </main>
         <Botnav />

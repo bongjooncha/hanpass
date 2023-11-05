@@ -1,29 +1,28 @@
 import './menu2.css';
 
 import arrow from './arrow.JPG';
-import mypage from './mypage.JPG';
+import mypage from '../../png/main_img/mypage.png';
 
 import mobile from "../../png/left_menu_img/com_phone.png";
 import public_trans from "../../png/left_menu_img/com_tra.png";
 import shipping from "../../png/left_menu_img/com_shipping.png";
 import hotel from "../../png/left_menu_img/com_hotel.png";
 import travle_insu from "../../png/left_menu_img/com_trainsu.png";
-import utility_bill from "./img/utility_bill.png";
-import express_bus from "./img/exp_bus.png";
-import airline from "./img/airline.png"; 
+import express_bus from "../../png/left_menu_img/com_tra.png";
+import airline from "../../png/left_menu_img/com_airplane.png"; 
 
-import outcoun_send from "./img/outcoun_send.png";
-import outcoun_get from "./img/outcoun_get.png";
-import incoun_send from "./img/incoun_send.png";
-import atm_out from "./img/atm_out.png";
+import bank_sendkr from "../../png/left_menu_img/bank_sendkr.png";
+import bank_send from "../../png/left_menu_img/bank_send.png";
+import bank_code from "../../png/left_menu_img/bank_code.png";
+import atm_out from "../../png/left_menu_img/bank_atm.png";
 
-import qr_all from "./img/qr_all.png";
-import hanpass_card from "./img/hanpass_card.png";
+import pay_hancard from "../../png/left_menu_img/pay_hancard.png";
+import pay_zero from "../../png/left_menu_img/pay_zero.png";
+import pay_zeromark from "../../png/left_menu_img/pay_zeromark.png";
 
-import charge from "./img/charge.png";
-import wallet_log from "./img/wallet_log.png";
-import qr_give from "./img/qr_give.png";
-import qr_get from "./img/qr_get.png";
+import wal_charge from "../../png/left_menu_img/wal_charge.png";
+import wal_chargelog from "../../png/left_menu_img/wal_chargelog.png";
+import wal_qrsend from "../../png/left_menu_img/wal_qrsend.png";
 
 function Menu(){
 
@@ -39,7 +38,7 @@ function Menu(){
             <div id="menunav2">
                 <img onClick={()=>{topmenu();}} id='arrow' src ={arrow}></img>
                 <h2>전체 서비스 보기</h2>
-                <img id='mypage' src = {mypage}></img>
+                <img id='mypage2' src = {mypage}/>
             </div>
             <div id='menulist2'>
                 <ul>
@@ -49,28 +48,27 @@ function Menu(){
                     <li><img src={shipping}/></li>
                     <li><img src={hotel}/></li>
                     <li><img src={travle_insu}/></li>
-                    <li><img src={utility_bill}/></li>
                     <li><img src={express_bus}/></li>
                     <li><img src={airline}/></li>
                 </ul>
                 <ul>
                     <p><h3>뱅킹</h3></p>
-                    <li><img src={outcoun_send}></img>해외송금 보내기</li>
-                    <li><img src={outcoun_get}></img>해외송금 받기</li>
-                    <li><img src={incoun_send}></img>국내송금 보내기</li>
-                    <li><img src={atm_out}></img>ATM 출금</li>
+                    <li><img src={bank_sendkr}/></li>
+                    <li><img src={bank_send}/></li>
+                    <li><img src={bank_code}/></li>
+                    <li><img src={atm_out}/></li>
                 </ul>
                 <ul>
                     <p><h3>결제</h3></p>
-                    <li><img src={qr_all}></img>통합 QR 결제</li>
-                    <li><img src={hanpass_card}></img>한패스카드</li>
+                    <li><img src={pay_hancard}/></li>
+                    <li><img src={pay_zero}/></li>
+                    <li><img src={pay_zeromark}/></li>
                 </ul>
                 <ul>
                     <p><h3>월렛</h3></p>
-                    <li><img src={charge}></img>충전하기</li>
-                    <li><img src={wallet_log}></img>월렛 내역 보기</li>
-                    <li><img src={qr_give}></img>QR 송금하기</li>
-                    <li><img src={qr_get}></img>QR 송금받기</li>
+                    <li><img src={wal_charge}/></li>
+                    <li><img src={wal_chargelog}/></li>
+                    <li><img src={wal_qrsend}/></li>
                 </ul>
             </div>
         </div>
