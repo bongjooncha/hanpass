@@ -1,9 +1,6 @@
 import "./Main2.css";
 import React from "react";
 
-import Form from "react-bootstrap/Form";
-import Col from "react-bootstrap/Col";
-
 import arrow2 from "../png/arrow2.png";
 
 import bell from "../png/main_img/bell.png";
@@ -29,12 +26,12 @@ function Main({ setPoped }) {
 
   return (
     <>
-      <link
+      {/* <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
         crossorigin="anonymous"
-      />
+      /> */}
       <div className="Main2">
         <navbar className="TopNav2">
           <ul>
