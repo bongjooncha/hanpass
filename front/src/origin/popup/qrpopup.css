@@ -4,7 +4,6 @@
   width: 432px;
   background-color: rgba(0, 0, 0, 0.285);
   transform: translate(432px, 0);
-  display: flex;
   display: none;
 }
 

@@ -29,7 +29,7 @@ function Menu(){
     let leftmenustat =false;
     function topmenu(){
       const leftmenu = document.querySelector(".menu2");
-      leftmenu.classList.remove('active');
+      leftmenu.classList.remove('active2');
       leftmenustat = !leftmenustat;
     }
 

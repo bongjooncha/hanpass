@@ -20,6 +20,7 @@ import nav from "./mainimg/nav.png";
 import Botnav from "../botnav/botnav.js";
 
 function Main() {
+
   function topmenu() {
     const leftmenu = document.querySelector(".menu");
     leftmenu.classList.add("active");
@@ -28,6 +29,16 @@ function Main() {
   function qrpop() {
     const qrpopup = document.querySelector(".qrpopup");
     qrpopup.classList.add("show");
+    handleSomeClick();
+  }
+
+  function handleSomeClick() {
+    const lackup = document.querySelector(".lackup");
+    lackup.classList.add("show");
+    setTimeout(() => {
+      console.log("Removing 'show' class");
+      lackup.classList.remove("show");
+    }, 700);
   }
 
   return (
@@ -58,7 +69,7 @@ function Main() {
               안녕하세요.
               <br /> 사용자님
             </p>
-            {/* <img id="ticket" src={ticket}></img> */}
+            <img id="ticket" src={ticket}/>
           </div>
 
           <img id="wallet" src={wallet}></img>

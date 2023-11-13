@@ -47,35 +47,33 @@
   margin-top: 13px;
   margin-left: 3%;
   width: 94%;
-  /* height: 300px; */
+  height: 90px;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
 
   display: flex;
-  flex-direction: column;
-  text-align: left;
+  align-items: center;
+  text-align: center;
 }
 
-#exchange #row {
+#exchange #exch_coun_box{
+  width: 40%;
+  height: 50px;
+  background-color: rgb(100, 133, 222);
+  margin: 0 5%;
   display: flex;
-  font-size: 25px;
 }
-#exchange #sel-coun {
-  width: 50%;
-  margin: 20px;
-  font-size: 20px;
-}
-
-/* #exchange img {
-  width: 30px;
-  margin: 10px 50%;
-} */
 
 #exchange input {
-  width: 55%;
   margin: 20px;
   border: 0;
+  width: 50%;
   text-align: end;
+}
+
+#exchange #exch_arrow{
+  width: 6%;
+  transform: rotate(90deg);
 }
 
 /* wallet */

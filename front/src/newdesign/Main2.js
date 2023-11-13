@@ -21,7 +21,7 @@ import Botnav from "../botnav/botnav.js";
 function Main({ setPoped }) {
   function topmenu() {
     const leftmenu = document.querySelector(".menu2");
-    leftmenu.classList.add("active");
+    leftmenu.classList.add("active2");
   }
 
   return (
@@ -55,36 +55,15 @@ function Main({ setPoped }) {
         </navbar>
         <main>
           <div id="exchange">
-            <img src={exchange} />
-            {/* <div class="input-money">
-              <a>send</a>
-              <Form.Group as={Col} controlId="formGridState" id="row">
-                <Form.Select defaultValue="한국(KRW)" id="sel-coun">
-                  <option>한국(KRW)</option>
-                  <option>미국(USD)</option>
-                  <option>중국(CNY)</option>
-                  <option>일본(JPY)</option>
-                  <option>베트남(VND)</option>
-                  <option>태국(TBH)</option>
-                </Form.Select>
-                <input type="text" value="1,000,000" />
-              </Form.Group>
+            <div class="input-money" id = "exch_coun_box">
+              <button className="country">KRW</button>
+              <input type="text" value="1,000,000" />
             </div>
-            <img src={arrow2} />
-            <div class="output-money">
-              <a>get</a>
-              <Form.Group as={Col} controlId="formGridState" id="row">
-                <Form.Select defaultValue="미국(USD)" id="sel-coun">
-                  <option>미국(USD)</option>
-                  <option>한국(KRW)</option>
-                  <option>중국(CNY)</option>
-                  <option>일본(JPY)</option>
-                  <option>베트남(VND)</option>
-                  <option>태국(TBH)</option>
-                </Form.Select>
-                <input type="text" value="765" />
-              </Form.Group>
-            </div> */}
+            <img id ="exch_arrow" src={arrow2}/>
+            <div class="output-money" id = "exch_coun_box">
+              <button className="country">USD</button>
+              <input type="text" value="765" />
+            </div>
           </div>
           <img id="wallet" src={wallet} />
           <div>

@@ -3,9 +3,11 @@
     transition: transform 0.5s ease;
     background-color: white;
     z-index: 3;
+    /* display: none; */
 }
 
-.active{
+.active2{
+  display: inline;
   transform: translate(100%);
 }
 

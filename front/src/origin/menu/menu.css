@@ -1,12 +1,15 @@
 .menu{
-    width: 430px;
+    width: 432px;
     transition: transform 0.5s ease;
     background-color: white;
     z-index: 3;
+    transform: translate(100%,100%);
+    /* display: none; */
 }
 
 .active{
-  transform: translate(100%);
+  display: inline;
+  transform: translate(100%,0);
 }
 
 #menunav{
