@@ -6,11 +6,21 @@ import mypage from '../../png/main_img/mypage.png';
 function Menu(){
 
     let leftmenustat =false;
+
     function topmenu(){
       const leftmenu = document.querySelector(".menu");
       leftmenu.classList.remove('active');
       leftmenustat = !leftmenustat;
+      handleSomeClick();
     }
+
+    function handleSomeClick() {
+        const lackup = document.querySelector(".lackup");
+        lackup.classList.add("show");
+        setTimeout(() => {
+          lackup.classList.remove("show");
+        }, 100);
+      }
 
     return(
         <div className="menu">

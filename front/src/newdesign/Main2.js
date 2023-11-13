@@ -14,7 +14,7 @@ import wallet from "./mainimg/wallet.JPG";
 
 import line4 from "./mainimg/forthline.JPG";
 
-import Botnav from "../botnav/botnav.js";
+import Botnav2 from "./botnav/botnav2.js";
 
 // import "./origin/popup/qrpopup.css";
 
@@ -22,6 +22,15 @@ function Main({ setPoped }) {
   function topmenu() {
     const leftmenu = document.querySelector(".menu2");
     leftmenu.classList.add("active2");
+    handleSomeClick();
+  }
+
+  function handleSomeClick() {
+    const lackup = document.querySelector(".lackup2");
+    lackup.classList.add("show2");
+    setTimeout(() => {
+      lackup.classList.remove("show2");
+    }, 700);
   }
 
   return (
@@ -70,7 +79,7 @@ function Main({ setPoped }) {
             <img id="line4" src={line4} />
           </div>
         </main>
-        <Botnav />
+        <Botnav2 />
       </div>
     </>
   );

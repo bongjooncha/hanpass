@@ -1,0 +1,68 @@
+
+/* BottomNav */
+.BotNavDiv{
+  display: block;
+  background-color: #ffffff;
+  position: fixed;
+  width: 432px;
+  bottom: 0;
+  border-radius: 10px 10px 0 0;
+  padding: 0;
+  transition: height 0.5s ease;
+}
+
+/* main button */
+.BottomNav{
+  display: block;
+  height: 73px;
+  background-color: #ffffff;
+  width: 432px;
+}
+  
+.BottomNav ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.BottomNav li{
+  display: block;
+  width: 20% ;
+  text-align: center;
+}
+.BottomNav li:hover{
+  cursor: pointer;
+}
+
+.BottomNav li a img{ 
+  height: 73px;
+}
+
+/* tab */
+#tab #main{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  height: 73px;
+  width: 100%;
+  
+  font-size: 20px;
+  align-items: center;
+  vertical-align: middle;
+}
+
+#tab #main button{
+  margin-left : 10px;
+  height: 27px;
+  width: 28px;
+
+  display: flex;
+  align-items: center;
+}
+
+#tab #main button img{
+  margin-left:-8px;
+}
+
+#tab #main h3{
+  margin-left : 20px
+}

@@ -1,4 +1,4 @@
-.lackup {
+.lackup2 {
     position: fixed;
     height: 100vh;
     width: 432px;
@@ -11,7 +11,7 @@
     display: none;
 }
   
-.show {
+.show2 {
     display: flex;
 }
 

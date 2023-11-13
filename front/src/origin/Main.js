@@ -17,28 +17,27 @@ import line4 from "./mainimg/forthline.JPG";
 
 import nav from "./mainimg/nav.png";
 
-import Botnav from "../botnav/botnav.js";
+import Botnav from "./botnav/botnav.js";
 
 function Main() {
 
   function topmenu() {
     const leftmenu = document.querySelector(".menu");
     leftmenu.classList.add("active");
+    handleSomeClick();
   }
 
   function qrpop() {
     const qrpopup = document.querySelector(".qrpopup");
     qrpopup.classList.add("show");
-    handleSomeClick();
   }
 
   function handleSomeClick() {
     const lackup = document.querySelector(".lackup");
     lackup.classList.add("show");
     setTimeout(() => {
-      console.log("Removing 'show' class");
       lackup.classList.remove("show");
-    }, 700);
+    }, 200);
   }
 
   return (

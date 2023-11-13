@@ -31,7 +31,16 @@ function Menu(){
       const leftmenu = document.querySelector(".menu2");
       leftmenu.classList.remove('active2');
       leftmenustat = !leftmenustat;
+      handleSomeClick();
     }
+
+    function handleSomeClick() {
+        const lackup = document.querySelector(".lackup2");
+        lackup.classList.add("show2");
+        setTimeout(() => {
+          lackup.classList.remove("show2");
+        }, 500);
+      }
 
     return(
         <div className="menu2">
