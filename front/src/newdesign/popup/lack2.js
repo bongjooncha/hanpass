@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./lack2.css";
-import img1 from "../../png/main_img/dollor_send.png";
+import img1 from "../../png/main_img/dollor_send_w.png";
 import img2 from "../../png/main_img/qr.png";
 import img3 from "../../png/main_img/won_send.png";
 
