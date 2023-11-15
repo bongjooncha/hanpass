@@ -29,19 +29,21 @@ function Botnav() {
   // 높이 변환하기
   const [navHight, setNavHight] = useState(100);
   const exNav = () => {
-    setNavHight(1025);handleSomeClick();
+    setNavHight(1025);
+    // handleSomeClick();
   };
   const reNav = () => {
-    setNavHight(100);handleSomeClick();
+    setNavHight(100);
+    // handleSomeClick();
   };
 
-  function handleSomeClick() {
-    const lackup = document.querySelector(".lackup2");
-    lackup.classList.add("show2");
-    setTimeout(() => {
-      lackup.classList.remove("show2");
-    }, 500);
-  }
+  // function handleSomeClick() {
+  //   const lackup = document.querySelector(".lackup2");
+  //   lackup.classList.add("show2");
+  //   setTimeout(() => {
+  //     lackup.classList.remove("show2");
+  //   }, 500);
+  // }
 
   return (
     <div className="BotNavDiv" style={{ height: navHight }}>

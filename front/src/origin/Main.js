@@ -20,7 +20,6 @@ import nav from "./mainimg/nav.png";
 import Botnav from "./botnav/botnav.js";
 
 function Main() {
-
   function topmenu() {
     const leftmenu = document.querySelector(".menu");
     leftmenu.classList.add("active");
@@ -37,7 +36,7 @@ function Main() {
     lackup.classList.add("show");
     setTimeout(() => {
       lackup.classList.remove("show");
-    }, 200);
+    }, 500);
   }
 
   return (
@@ -68,7 +67,7 @@ function Main() {
               안녕하세요.
               <br /> 사용자님
             </p>
-            <img id="ticket" src={ticket}/>
+            <img id="ticket" src={ticket} />
           </div>
 
           <img id="wallet" src={wallet}></img>

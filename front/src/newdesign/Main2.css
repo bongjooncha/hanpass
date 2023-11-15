@@ -56,7 +56,7 @@
   text-align: center;
 }
 
-#exchange #exch_coun_box{
+#exchange #exch_coun_box {
   width: 40%;
   height: 50px;
   background-color: rgb(100, 133, 222);
@@ -71,7 +71,7 @@
   text-align: end;
 }
 
-#exchange #exch_arrow{
+#exchange #exch_arrow {
   width: 6%;
   transform: rotate(90deg);
 }
@@ -113,4 +113,25 @@
 /* 5thline */
 #img5th {
   position: fixed;
+}
+
+#t {
+  width: 420px;
+  margin-top: 20px;
+}
+
+#t2 {
+  margin-top: 20px;
+  width: 400px;
+}
+
+#bottom {
+  display: block;
+  background-color: #ffffff;
+  position: fixed;
+  width: 432px;
+  bottom: 0;
+  border-radius: 10px 10px 0 0;
+  padding: 0;
+  transition: height 0.5s ease;
 }

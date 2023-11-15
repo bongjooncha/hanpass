@@ -16,22 +16,26 @@ import line4 from "./mainimg/forthline.JPG";
 
 import Botnav2 from "./botnav/botnav2.js";
 
+import t from "./try.jpg";
+import t2 from "./t2.jpg";
+import bottom from "./bottom.png";
+
 // import "./origin/popup/qrpopup.css";
 
 function Main({ setPoped }) {
   function topmenu() {
     const leftmenu = document.querySelector(".menu2");
     leftmenu.classList.add("active2");
-    handleSomeClick();
+    // handleSomeClick();
   }
 
-  function handleSomeClick() {
-    const lackup = document.querySelector(".lackup2");
-    lackup.classList.add("show2");
-    setTimeout(() => {
-      lackup.classList.remove("show2");
-    }, 700);
-  }
+  // function handleSomeClick() {
+  //   const lackup = document.querySelector(".lackup2");
+  //   lackup.classList.add("show2");
+  //   setTimeout(() => {
+  //     lackup.classList.remove("show2");
+  //   }, 700);
+  // }
 
   return (
     <>
@@ -63,13 +67,13 @@ function Main({ setPoped }) {
           </ul>
         </navbar>
         <main>
-          <div id="exchange">
-            <div class="input-money" id = "exch_coun_box">
+          {/* <div id="exchange">
+            <div class="input-money" id="exch_coun_box">
               <button className="country">KRW</button>
               <input type="text" value="1,000,000" />
             </div>
-            <img id ="exch_arrow" src={arrow2}/>
-            <div class="output-money" id = "exch_coun_box">
+            <img id="exch_arrow" src={arrow2} />
+            <div class="output-money" id="exch_coun_box">
               <button className="country">USD</button>
               <input type="text" value="765" />
             </div>
@@ -77,9 +81,12 @@ function Main({ setPoped }) {
           <img id="wallet" src={wallet} />
           <div>
             <img id="line4" src={line4} />
-          </div>
+          </div> */}
+          <img id="t2" src={t2} />
+          <img id="t" src={t} />
         </main>
         <Botnav2 />
+        {/* <img id="bottom" src={bottom} /> */}
       </div>
     </>
   );

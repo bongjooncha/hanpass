@@ -20,7 +20,7 @@ function Botnav() {
     lackup.classList.add("show");
     setTimeout(() => {
       lackup.classList.remove("show");
-    }, 200);
+    }, 500);
   }
   const [headerText, setHeaderText] = useState("");
   const changeText = (newText) => {
@@ -40,7 +40,8 @@ function Botnav() {
     handleSomeClick();
   };
   const reNav = () => {
-    setNavHight(100);handleSomeClick();
+    setNavHight(100);
+    handleSomeClick();
   };
 
   return (
