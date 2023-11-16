@@ -12,9 +12,9 @@ root.render(
     <div className="mainblock_1"/>
     <App1 />
     <div className="mainblock_2"/>
-    <App2/>
+    <App2/> 
     <div className="mainblock_3"/>
-  </React.StrictMode>
+  </React.StrictMode> 
 );
 
 reportWebVitals();

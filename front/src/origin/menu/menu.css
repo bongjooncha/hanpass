@@ -33,8 +33,12 @@ h2{
 }
 
 #mypage{
-  width: 40px;
-  margin-left: 38%;
+  width: 37px;
+  margin-left: 30%;
+}
+.menu #menunav #setting_ico{
+  scale: 1.1;
+  margin-left: 2%;
 }
 
 #menulist{

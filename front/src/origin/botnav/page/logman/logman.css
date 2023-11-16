@@ -11,6 +11,18 @@
   /* display: none; */
 }
 
+#logman #logmanhead ul{
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  list-style: none;
+  overflow: hidden;
+}
+#logman #logmanhead li{
+  display: inline;
+}
+
+
 #logmanhead button {
   display: inline;
   

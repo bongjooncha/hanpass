@@ -26,20 +26,20 @@
   align-items: center;
 }
 .TopNav2 li #menuimg {
-  height: 34px;
+  height: 36px;
   margin-left: 15px;
 }
 .TopNav2 li #bellimg {
-  height: 32px;
+  height: 34px;
   margin-left: 10px;
 }
-.TopNav2 li #ticket {
-  height: 50px;
-  margin-left: 200px;
+.TopNav2 #mypageimg {
+  height: 35px;
+  margin-left: 235px;
 }
-.TopNav2 li #mypageimg {
+.TopNav2 li #main_setting_ico {
   height: 38px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 /* exchange */
@@ -134,4 +134,75 @@
   border-radius: 10px 10px 0 0;
   padding: 0;
   transition: height 0.5s ease;
+}
+
+
+/* new */
+#landing{
+  margin: 0;
+  padding:0;
+  
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+#landing1{
+  width: 432px;
+}
+#landing_arrow_r{
+  background-color: rgba(0, 0, 0, 0.276);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  position: fixed;
+
+  transform: translate(392px,-280px);
+}
+
+#landing2{
+  width: 432px;
+}
+#cal{
+  width: 432px;
+}
+
+.section{
+  display: flex;
+  position: fixed;
+  transform: translate(175px,-400px);
+}
+
+.form_radio_btn {
+  width: 30px;
+  height : 30px;
+  /* border: 2px solid #000000; */
+  border-radius: 8px;
+}
+.form_radio_btn:nth-child(1) {
+  margin-right: 8px;
+}
+.form_radio_btn input[type=radio] {
+  display: none;
+}
+
+.form_radio_btn label {
+  display: block;
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 30px;
+}
+
+/* Checked */
+.form_radio_btn input[type=radio]:checked + label {
+  background: #79a5eb;
+  color: white;
+}
+
+/* Disabled */
+.form_radio_btn input[type=radio] + label {
+  background: #eeeeee;
 }

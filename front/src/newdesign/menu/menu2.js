@@ -2,6 +2,7 @@ import "./menu2.css";
 
 import arrow from "./arrow.JPG";
 import mypage from "../../png/main_img/mypage.png";
+import setting from "../../png/setting.JPG";
 
 import mobile from "../../png/left_menu_img/com_phone.png";
 import public_trans from "../../png/left_menu_img/com_tra.png";
@@ -53,6 +54,7 @@ function Menu() {
         ></img>
         <h2>전체 서비스 보기</h2>
         <img id="mypage2" src={mypage} />
+        <img id ="setting_ico2" src={setting} />
       </div>
       <div id="menulist2">
         <ul>

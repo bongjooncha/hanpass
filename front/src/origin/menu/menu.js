@@ -2,6 +2,7 @@ import "./menu.css";
 
 import arrow from "./arrow.JPG";
 import mypage from "../../png/main_img/mypage.png";
+import setting from "../../png/setting.JPG";
 
 function Menu() {
   let leftmenustat = false;
@@ -33,6 +34,7 @@ function Menu() {
         ></img>
         <h2>전체 서비스 보기</h2>
         <img id="mypage" src={mypage}></img>
+        <img id ="setting_ico" src={setting} />
       </div>
       <div id="menulist">
         <ul>

@@ -6,19 +6,15 @@ import arrow2 from "../png/arrow2.png";
 import bell from "../png/main_img/bell.png";
 import menu from "../png/main_img/menu.png";
 import mypage from "../png/main_img/mypage.png";
-import exchange from "../png/main_img/exchange.png";
-
-import ticket from "../png/main_img/ticket_1.png";
-
-import wallet from "./mainimg/wallet.JPG";
-
-import line4 from "./mainimg/forthline.JPG";
+import setting from "../png/setting.JPG";
 
 import Botnav2 from "./botnav/botnav2.js";
 
 import t from "./try.jpg";
 import t2 from "./t2.jpg";
 import bottom from "./bottom.png";
+
+import cal from "../png/cal.jpg"
 
 // import "./origin/popup/qrpopup.css";
 
@@ -59,34 +55,51 @@ function Main({ setPoped }) {
               <img id="bellimg" src={bell}></img>
             </li>
             <li>
-              <img id="ticket" src={ticket}></img>
+              <img id="mypageimg" src={mypage}></img>
             </li>
             <li>
-              <img id="mypageimg" src={mypage}></img>
+              <img id="main_setting_ico" src={setting}></img>
             </li>
           </ul>
         </navbar>
         <main>
-          {/* <div id="exchange">
-            <div class="input-money" id="exch_coun_box">
-              <button className="country">KRW</button>
-              <input type="text" value="1,000,000" />
-            </div>
-            <img id="exch_arrow" src={arrow2} />
-            <div class="output-money" id="exch_coun_box">
-              <button className="country">USD</button>
-              <input type="text" value="765" />
-            </div>
-          </div>
-          <img id="wallet" src={wallet} />
-          <div>
-            <img id="line4" src={line4} />
-          </div> */}
-          <img id="t2" src={t2} />
-          <img id="t" src={t} />
+          <ul id = "landing">
+            <li id = "landing1">
+            {/* <div id="exchange">
+                <div class="input-money" id="exch_coun_box">
+                  <button className="country">KRW</button>
+                  <input type="text" value="1,000,000" />
+                </div>
+                <img id="exch_arrow" src={arrow2} />
+                <div class="output-money" id="exch_coun_box">
+                  <button className="country">USD</button>
+                  <input type="text" value="765" />
+                </div>
+              </div>
+              <img id="wallet" src={wallet} />
+              <div>
+                <img id="line4" src={line4} />
+              </div> */}
+              {/* <img id="t2" src={t2} /> */}
+              <img id="t" src={t} />
+              {/* <div id ="landing_arrow_r"></div> */}
+            </li>
+            <li id = "landing2"><img id ="cal" src = {cal}/></li>
+          </ul>            
         </main>
-        <Botnav2 />
-        {/* <img id="bottom" src={bottom} /> */}
+        <div className="section">
+            <div class="form_radio_btn">
+                <input id="radio-1" type="radio" name="userSex" value="male" checked/>
+                <label for="radio-1">💲</label>
+            </div>
+                                         
+            <div class="form_radio_btn">
+                <input id="radio-2" type="radio" name="userSex" value="female"/>
+                <label for="radio-2">🗓</label>
+            </div>
+        </div>
+        {/* <Botnav2 /> */}
+        <img id="bottom" src={bottom} />
       </div>
     </>
   );

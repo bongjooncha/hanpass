@@ -1,5 +1,5 @@
 import "./Main.css";
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 import bell from "./frontnavimg/bell.JPG";
 import menu from "./frontnavimg/menu.JPG";

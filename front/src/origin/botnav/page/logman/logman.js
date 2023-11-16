@@ -5,14 +5,16 @@ function logman() {
   return (
     <div id="logman">
       <a id="logmanhead">
-        <button>해외송금 보내기</button>
-        <button>국내송금</button>
-        <button>연락처 송금</button>
-        <button>체크카드</button>
-        <button>교통카드 충전</button>
-        <button>결제</button>
-        <button>ATM 출금</button>
-        <button>국내 선불폰 충전</button>
+        <ul>
+          <li><button>해외송금 보내기</button></li>
+          <li><button>국내송금</button></li>
+          <li><button>연락처 송금</button></li>
+          <li><button>체크카드</button></li>
+          <li><button>교통카드 충전</button></li>
+          <li><button>결제</button></li>
+          <li><button>ATM 출금</button></li>
+          <li><button>국내 선불폰 충전</button></li>
+        </ul>
       </a>
       <div id="dateachisman">
         <button>
