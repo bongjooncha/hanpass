@@ -65,37 +65,38 @@ function Main({ setPoped }) {
         <main>
           <ul id = "landing">
             <li id = "landing1">
-            {/* <div id="exchange">
-                <div class="input-money" id="exch_coun_box">
-                  <button className="country">KRW</button>
-                  <input type="text" value="1,000,000" />
+              <label  for ="mp_$">
+              {/* <div id="exchange">
+                  <div class="input-money" id="exch_coun_box">
+                    <button className="country">KRW</button>
+                    <input type="text" value="1,000,000" />
+                  </div>
+                  <img id="exch_arrow" src={arrow2} />
+                  <div class="output-money" id="exch_coun_box">
+                    <button className="country">USD</button>
+                    <input type="text" value="765" />
+                  </div>
                 </div>
-                <img id="exch_arrow" src={arrow2} />
-                <div class="output-money" id="exch_coun_box">
-                  <button className="country">USD</button>
-                  <input type="text" value="765" />
-                </div>
-              </div>
-              <img id="wallet" src={wallet} />
-              <div>
-                <img id="line4" src={line4} />
-              </div> */}
-              {/* <img id="t2" src={t2} /> */}
-              <img id="t" src={t} />
-              {/* <div id ="landing_arrow_r"></div> */}
+                <img id="wallet" src={wallet} />
+                <div>
+                  <img id="line4" src={line4} />
+                </div> */}
+                {/* <img id="t2" src={t2} /> */}
+                <img id="t" src={t} />
+                {/* <div id ="landing_arrow_r"></div> */}
+              </label>
             </li>
-            <li id = "landing2"><img id ="cal" src = {cal}/></li>
+            <li id = "landing2" >
+              <img id ="cal" src = {cal}/>
+            </li>
           </ul>            
         </main>
         <div className="section">
             <div class="form_radio_btn">
-                <input id="radio-1" type="radio" name="userSex" value="male" checked/>
-                <label for="radio-1">💲</label>
-            </div>
-                                         
-            <div class="form_radio_btn">
-                <input id="radio-2" type="radio" name="userSex" value="female"/>
-                <label for="radio-2">🗓</label>
+                <input id="mp_$" type="radio" name="mp" value="$" checked/>
+                <label for="mp_$">💲</label>
+                <input id="mp_cal" type="radio" name="mp" value="cal"/>
+                <label for="mp_cal">🗓</label>
             </div>
         </div>
         {/* <Botnav2 /> */}

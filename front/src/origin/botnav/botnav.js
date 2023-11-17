@@ -14,7 +14,6 @@ import Logman from "./page/logman/logman.js";
 import Setting from "./page/setting/setting.js";
 
 function Botnav() {
-  // main에 h3 text변환하기
   function handleSomeClick() {
     const lackup = document.querySelector(".lackup");
     lackup.classList.add("show");
@@ -22,6 +21,8 @@ function Botnav() {
       lackup.classList.remove("show");
     }, 500);
   }
+
+  // main에 h3 text변환하기
   const [headerText, setHeaderText] = useState("");
   const changeText = (newText) => {
     setHeaderText(newText);
@@ -105,7 +106,7 @@ function Botnav() {
           </li>
         </ul>
       </navbar>
-      <div id="tab">
+      <div id="tab" className="invisible">
         <div id="main">
           <button onClick={reNav}>
             <img src={arrow}></img>
