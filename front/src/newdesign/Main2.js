@@ -99,8 +99,7 @@ function Main({ setPoped }) {
                 <label for="mp_cal">🗓</label>
             </div>
         </div>
-        {/* <Botnav2 /> */}
-        <img id="bottom" src={bottom} />
+        <Botnav2 />
       </div>
     </>
   );
