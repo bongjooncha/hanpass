@@ -2,7 +2,6 @@ import "./App2.css";
 import Main2 from "./Main2.js";
 import Menu2 from "./menu/menu2.js";
 import Community from "./community/community.js"
-import Lack2 from "./popup/lack2.js";
 
 function App2() {
   return (
@@ -10,7 +9,6 @@ function App2() {
       <Menu2 />
       <Main2 />
       <Community/>
-      <Lack2/>
     </div>
   );
 }
