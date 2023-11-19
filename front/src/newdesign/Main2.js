@@ -8,14 +8,17 @@ import menu from "../png/main_img/menu.png";
 import mypage from "../png/main_img/mypage.png";
 import setting from "../png/setting.JPG";
 
-import Wallet from "./main_page/wallet/Wallet.js";
-import Exchange from "./main_page/exchange/exchange.js";
+import Wallet_page from "./main_page/wallet/Wallet.js";
+import Exchange_page from "./main_page/exchange/exchange.js";
+import Life_page from "./main_page/life/life.js";
+import Cal_page from "./main_page/cal/cal.js";
+import Event_page from "./main_page/event/event.js";
 
 import wal_ico from "../png/7/wal.png";
 import exch_ico from "../png/main_img/dollor_send.png";
 import life_ico from "../png/6/life.png";
 import cal_ico from "../png/cal_ico.png";
-import event_ico from "../png/bot_nav_img/event.png"
+import event_ico from "../png/bot_nav_img/event.png";
 
 import t2 from "./t2.jpg";
 
@@ -28,7 +31,7 @@ function Main({ setPoped }) {
     leftmenu.classList.add("active2");
   }
 
-  const [content, setContent] = useState(Wallet);
+  const [content, setContent] = useState(Wallet_page);
   const changeContent = (newComp) => {
     setContent(newComp);
   };
@@ -58,19 +61,19 @@ function Main({ setPoped }) {
         </main>
         <navbar className="BottomNav2">
           <ul>
-            <li onClick={()=>changeContent(Wallet)}>
+            <li onClick={()=>changeContent(Wallet_page)}>
               <div id="ico_wal" ><img src={wal_ico}/>월렛</div>
             </li>
-            <li onClick={()=>changeContent(Exchange)}>
+            <li onClick={()=>changeContent(Exchange_page)}>
               <div id="ico_tran"><img src={exch_ico}/>환전</div>
             </li>
-            <li>
+            <li onClick={()=>changeContent(Life_page)}>
               <div id="ico_life"><img src={life_ico}/>생활</div>
             </li>
-            <li>
+            <li onClick={()=>changeContent(Cal_page)}>
               <div id="ico_cal"><img src={cal_ico}/>달력</div>
             </li>
-            <li>
+            <li onClick={()=>changeContent(Event_page)}>
               <div id="ico_event"><img src={event_ico}/>이벤트</div>
             </li>
           </ul>
