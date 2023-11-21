@@ -1,4 +1,4 @@
-import exchange from "./exchange.jpg";
+import exchange from "./exchange.png";
 import "./exchange.css";
 
 function Exchange(){

@@ -7,8 +7,8 @@ import Lack from "./popup/lack.js";
 function App() {
   return (
     <div className="App">
-      <Menu />
       <Main />
+      <Menu />
       <Qrpopup />
       <Lack/>
     </div>

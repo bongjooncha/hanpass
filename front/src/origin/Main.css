@@ -1,9 +1,9 @@
 .Main {
   background-color: rgb(246, 246, 246);
+  transform: translate(100%,0);
 }
 .Main main {
   width: 432px;
-  height: 1100px;
   display: block;
   text-align: center;
 }
@@ -72,7 +72,7 @@
 }
 
 /* wallet */
-#wallet {
+main #wallet_img {
   margin-top: 13px;
   width: 94%;
 }

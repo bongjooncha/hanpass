@@ -25,7 +25,7 @@ function Wallet(){
             <img id="ticket" src={ticket} />
             </div>
 
-            <img id="wallet" src={wallet}/>
+            <img id="wallet_img" src={wallet}/>
 
             <div id="qr">
                 <img src={qrget}></img>

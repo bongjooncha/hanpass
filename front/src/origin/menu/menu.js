@@ -5,12 +5,10 @@ import mypage from "../../png/main_img/mypage.png";
 import setting from "../../png/setting.JPG";
 
 function Menu() {
-  let leftmenustat = false;
 
   function topmenu() {
     const leftmenu = document.querySelector(".menu");
     leftmenu.classList.remove("active");
-    leftmenustat = !leftmenustat;
     handleSomeClick();
   }
 

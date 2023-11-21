@@ -70,7 +70,7 @@ function Main() {
             <img id="ticket" src={ticket} />
           </div>
 
-          <img id="wallet" src={wallet}></img>
+          <img id="wallet_img" src={wallet}></img>
 
           <div id="qr">
             <img src={qrget}></img>
