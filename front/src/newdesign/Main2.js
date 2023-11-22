@@ -1,8 +1,6 @@
 import "./Main2.css";
 import React,{useState} from "react";
 
-import arrow2 from "../png/arrow2.png";
-
 import bell from "../png/main_img/bell.png";
 import menu from "../png/main_img/menu.png";
 import mypage from "../png/main_img/mypage.png";
@@ -19,11 +17,6 @@ import exch_ico from "../png/main_img/dollor_send.png";
 import life_ico from "../png/6/life.png";
 import cal_ico from "../png/cal_ico.png";
 import event_ico from "../png/bot_nav_img/event.png";
-
-import t2 from "./t2.jpg";
-
-import cal from "../png/cal.jpg";
-
 
 function Main({ setPoped }) {
   function topmenu() {

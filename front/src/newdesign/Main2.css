@@ -26,20 +26,25 @@
   align-items: center;
 }
 .TopNav2 li #menuimg {
-  height: 36px;
+  height: 40px;
   margin-left: 15px;
 }
 .TopNav2 li #bellimg {
-  height: 34px;
-  margin-left: 10px;
+  height: 40px;
+  margin-left: 12px;
 }
 .TopNav2 #mypageimg {
-  height: 35px;
-  margin-left: 235px;
+  height: 40px;
+  margin-left: 210px;
 }
 .TopNav2 li #main_setting_ico {
-  height: 38px;
-  margin-left: 10px;
+  height: 45px;
+  margin-left: 12px;
+}
+
+#main_tag{
+  display: flex;
+  align-items: center;
 }
 
 

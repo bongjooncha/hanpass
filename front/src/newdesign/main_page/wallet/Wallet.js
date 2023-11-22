@@ -15,7 +15,7 @@ import line4 from "./mainimg/forthline.JPG";
 function Wallet(){
     return(
         <div id="wallet">
-            <h3>지갑</h3>
+            <div id ="main_tag"><h3>지갑</h3></div>
             <div className="hiuser">
             <img id="coun" src={coun}></img>
             <p>

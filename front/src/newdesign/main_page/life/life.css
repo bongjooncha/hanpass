@@ -3,5 +3,19 @@
     margin-left: 20px;
 }
 
-#life img{
+#main_life{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#main_life div{
+    display: flex;
+    justify-content: center;
+}
+
+#main_life img{
+    border-radius: 10px;
+    background-color: rgb(194, 231, 255);
+    /* width: 120px;
+    height: 120px; */
 }
