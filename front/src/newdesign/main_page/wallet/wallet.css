@@ -1,71 +1,71 @@
-#wallet{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#wallet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#wallet h3{
-    margin-left: 20px;
+#wallet h3 {
+  text-align: left;
+  margin-left: 20px;
 }
-
 
 /* hi user */
 #wallet .hiuser {
-    display: flex;
-    margin-top: 13px;
-    width: 100%;
-    height: 60px;
-    background-color: rgb(246, 246, 246);
-    font-weight: 800;
-    align-items: center;
+  display: flex;
+  margin-top: 13px;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(246, 246, 246);
+  font-weight: 800;
+  align-items: center;
 }
 
 #wallet #coun {
-    margin-left: 10px;
-    height: 60px;
-    width: 60px;
-    margin-right: 8px;
+  margin-left: 10px;
+  height: 60px;
+  width: 60px;
+  margin-right: 8px;
 }
 
 #wallet .hiuser p {
-    width: 200px;
-    margin-right: 150px;
+  width: 200px;
+  margin-right: 150px;
 }
 
 #ticket {
-    scale: 0.7;
+  scale: 0.7;
 }
 
 /* wallet */
 #wallet #wallet_img {
-margin-top: 13px;
-width: 94%;
+  margin-top: 13px;
+  width: 94%;
 }
 
 /* qr */
 #qr {
-align-items: center;
-margin-left: 3%;
-margin-top: 13px;
+  align-items: center;
+  margin-left: 3%;
+  margin-top: 13px;
 
-width: 94%;
-height: 80px;
-border-radius: 10px 10px;
+  width: 94%;
+  height: 80px;
+  border-radius: 10px 10px;
 
-background-color: rgb(4, 35, 79);
-display: flex;
-justify-content: center;
+  background-color: rgb(4, 35, 79);
+  display: flex;
+  justify-content: center;
 }
 
 #qr a {
-color: white;
+  color: white;
 }
-  
-  /* 4thline */
-#line4 {
-    height: 108px;
-    margin-top: 6px;
-    justify-content: center;
 
-    cursor: pointer;
+/* 4thline */
+#line4 {
+  height: 108px;
+  margin-top: 6px;
+  justify-content: center;
+
+  cursor: pointer;
 }

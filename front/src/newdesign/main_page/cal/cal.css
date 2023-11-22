@@ -1,8 +1,15 @@
-#cal h3{
-    text-align: left;
-    margin-left: 20px;
+#cal h2 {
+  text-align: left;
+  display: inline;
+  margin-left: 20px;
+  float: left;
 }
 
-#cal img{
-    width: 432px;
+#cal a {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+#cal img {
+  width: 432px;
 }
