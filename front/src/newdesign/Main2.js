@@ -1,5 +1,5 @@
 import "./Main2.css";
-import React,{useState} from "react";
+import React, { useState } from "react";
 
 import bell from "../png/main_img/bell.png";
 import menu from "../png/main_img/menu.png";
@@ -28,14 +28,22 @@ function Main({ setPoped }) {
   const changeContent = (newComp) => {
     setContent(newComp);
   };
- 
+
+  function showSetting() {
+    const setting2 = document.querySelector(".setting2");
+    setting2.classList.add("moveLeft");
+  }
 
   return (
     <>
       <div className="Main2">
         <navbar className="TopNav2">
           <ul>
-            <li onClick={() => {topmenu();}}>
+            <li
+              onClick={() => {
+                topmenu();
+              }}
+            >
               <img id="menuimg" src={menu}></img>
             </li>
             <li>
@@ -44,7 +52,11 @@ function Main({ setPoped }) {
             <li>
               <img id="mypageimg" src={mypage}></img>
             </li>
-            <li>
+            <li
+              onClick={() => {
+                showSetting();
+              }}
+            >
               <img id="main_setting_ico" src={setting}></img>
             </li>
           </ul>
@@ -54,20 +66,35 @@ function Main({ setPoped }) {
         </main>
         <navbar className="BottomNav2">
           <ul>
-            <li onClick={()=>changeContent(Wallet_page)}>
-              <div id="ico_wal" ><img src={wal_ico}/>월렛</div>
+            <li onClick={() => changeContent(Wallet_page)}>
+              <div id="ico_wal">
+                <img src={wal_ico} />
+                월렛
+              </div>
             </li>
-            <li onClick={()=>changeContent(Exchange_page)}>
-              <div id="ico_tran"><img src={exch_ico}/>환전</div>
+            <li onClick={() => changeContent(Exchange_page)}>
+              <div id="ico_tran">
+                <img src={exch_ico} />
+                환전
+              </div>
             </li>
-            <li onClick={()=>changeContent(Life_page)}>
-              <div id="ico_life"><img src={life_ico}/>생활</div>
+            <li onClick={() => changeContent(Life_page)}>
+              <div id="ico_life">
+                <img src={life_ico} />
+                생활
+              </div>
             </li>
-            <li onClick={()=>changeContent(Cal_page)}>
-              <div id="ico_cal"><img src={cal_ico}/>달력</div>
+            <li onClick={() => changeContent(Cal_page)}>
+              <div id="ico_cal">
+                <img src={cal_ico} />
+                달력
+              </div>
             </li>
-            <li onClick={()=>changeContent(Event_page)}>
-              <div id="ico_event"><img src={event_ico}/>이벤트</div>
+            <li onClick={() => changeContent(Event_page)}>
+              <div id="ico_event">
+                <img src={event_ico} />
+                이벤트
+              </div>
             </li>
           </ul>
         </navbar>
