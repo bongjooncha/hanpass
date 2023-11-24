@@ -56,3 +56,18 @@
   margin-left: 20px;
   color: rgb(255, 83, 83);
 }
+
+#cal .tt{
+  transform: translateY(-810px);
+  display: none;
+}
+
+#cal .rank{
+  display: none;
+  transform: translateY(-810px);
+}
+
+.trshow{
+  display: inline !important;
+}
+

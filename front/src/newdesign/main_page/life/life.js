@@ -14,8 +14,8 @@ function Life(){
         <div id ="life">
             <h3>생활 편의</h3>
             <div id="main_life">
-                <div><img src={mobile}/></div>
-                <div><img src={exp_bus}/></div>
+                <div><img src={mobile}/><p>선불폰<br/>충전</p></div>
+                <div><img src={exp_bus}/><p>고속버스<br/>예약</p></div>
                 <div><img src={utility}/></div>
                 <div><img src={trans}/></div>
                 <div><img src={exch_get}/></div>

@@ -1,8 +1,21 @@
 import "./cal.css";
 
 import cal from "../../../png/cal.jpg";
+import timetable from "./timetable.jpg";
+import rank from "./rank.jpg";
 
 function Cal() {
+  function ttshow(){
+    const timetable=document.querySelector("#cal .tt");
+    timetable.classList.add("trshow");
+  };
+  function rankshow(){
+    const timetable=document.querySelector("#cal .tt");
+    const rank=document.querySelector("#cal .rank");
+    timetable.classList.remove("trshow");
+    rank.classList.add("trshow");
+  };
+
   return (
     <div id="cal">
       <div id="main_tag">
@@ -10,7 +23,7 @@ function Cal() {
         <a>안내</a>
         <a href="https://www.a-ha.io/questions/categories/40">노무상담</a>
       </div>
-      <img src={cal} />
+      <img src={cal} onClick={()=>ttshow()} />
       <div id="usual_wage">
         <a>11월 총 임금</a>
         <a>450만원</a>
@@ -19,6 +32,8 @@ function Cal() {
         <a>11월 초과근로수당</a>
         <a>35만원</a>
       </div>
+      <img className="tt" src={timetable} onClick={()=>rankshow()}/>
+      <img className="rank" src={rank}/>
     </div>
   );
 }

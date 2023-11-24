@@ -3,7 +3,6 @@
     transition: transform 0.5s ease;
     background-color: white;
     z-index: 3;
-    /* display: none; */
 }
 
 .active2{

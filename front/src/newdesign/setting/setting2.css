@@ -1,9 +1,44 @@
 /* setting */
+.setting2 #main{
+  /* display: none; */
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  height: 73px;
+  width: 100%;
+  
+  font-size: 20px;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.setting2  #main button{
+  margin-left : 10px;
+  height: 27px;
+  width: 28px;
+
+  display: flex;
+  align-items: center;
+}
+
+.setting2  #main button img{
+  margin-left:-8px;
+}
+
+.setting2  #main h3{
+  margin-left : 20px
+}
+
+
+
+
 .setting2 {
   width: 432px;
   background-color: white;
+  display: none;
 }
 .moveLeft {
+  display: flex;
+  flex-direction: column;
   transform: translateX(-100%);
 }
 

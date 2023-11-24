@@ -5,17 +5,26 @@
 
 #main_life{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 180px;
+    background-color: rgb(255, 255, 255);
 }
 
 #main_life div{
-    display: flex;
+    /* display: ; */
     justify-content: center;
+    margin: 20px 40px;
+    border-radius: 15px;
+    background-color: rgb(194, 231, 255);
 }
 
 #main_life img{
     border-radius: 10px;
-    background-color: rgb(194, 231, 255);
     /* width: 120px;
     height: 120px; */
+}
+
+#main_life div p{
+    font-size: 15px;
+    font-weight: 600;
 }
