@@ -1,15 +1,15 @@
 import "./wallet.css";
 import React from "react";
 
-import coun from "./mainimg/coun.JPG";
-import ticket from "./mainimg/ticket.JPG";
-
 import wallet from "./mainimg/wallet.JPG";
 
 import qrget from "./mainimg/qrget.JPG";
 import qrgive from "./mainimg/qrgive.JPG";
+import qrall from "../../../png/main_img/qr_w.png";
 
-import line4 from "./mainimg/forthline.JPG";
+import account from "../../../png/bot_nav_img/account.png";
+import logman from "../../../png/bot_nav_img/logman.png";
+import consen from "../../../png/main_img/won_send.png";
 
 function Wallet() {
   return (
@@ -18,14 +18,6 @@ function Wallet() {
         <h3>지갑</h3>
         {/* <img id="ticket" src={ticket} /> */}
       </div>
-      {/* <div className="hiuser">
-        <img id="coun" src={coun}></img>
-        <p>
-          안녕하세요.
-          <br /> 사용자님
-        </p>
-        <img id="ticket" src={ticket} />
-      </div> */}
       <a id="exchange-label">
         <ul>
           <li>
@@ -54,13 +46,33 @@ function Wallet() {
       <img id="wallet_img" src={wallet} />
 
       <div id="qr">
-        <img src={qrget}></img>
-        <a>QR 송금받기</a>
-        <img src={qrgive}></img>
-        <a>QR 송금받기</a>
-      </div>
-      <div>
-        <img id="line4" src={line4} />
+        <div>
+          <img src={qrget}></img>
+          <p>QR 송금받기</p>
+        </div>
+        <div>
+          <img src={qrgive}></img>
+          <p>QR 송금하기</p>
+        </div>
+        <div>
+          <img src={qrall}></img>
+          <p>통합 QR 결제</p>
+        </div>
+      </div>     
+
+      <div id="line4">
+        <div>
+          <img src={account}></img>
+          <p>계좌관리</p>
+        </div>
+        <div>
+          <img src={logman}></img>
+          <p>QR 송금하기</p>
+        </div>
+        <div>
+          <img src={consen}></img>
+          <p>국내송금<br/>보내기</p>
+        </div>
       </div>
     </div>
   );

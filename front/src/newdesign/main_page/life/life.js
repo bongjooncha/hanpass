@@ -15,13 +15,15 @@ function Life(){
             <h3>생활 편의</h3>
             <div id="main_life">
                 <div><img src={mobile}/><p>선불폰<br/>충전</p></div>
+                <div><img src={utility}/><p>공과금<br/>납부</p></div>
+                <div><img src={trans}/><p>교통카드<br/>충전</p></div>
+                <div><img src={plane}/><p>항공권<br/>예약</p></div>
                 <div><img src={exp_bus}/><p>고속버스<br/>예약</p></div>
-                <div><img src={utility}/></div>
-                <div><img src={trans}/></div>
-                <div><img src={exch_get}/></div>
-                <div><img src={hotel}/></div>
-                <div><img src={plane}/></div>
-                <div><img src={travle}/></div>
+                <div><img src={travle}/><p>여행보험</p></div>
+                <div><img src={exch_get}/><p>해외송금<br/>받기</p></div>
+                <div><img src={hotel}/><p>호텔예약</p></div>
+
+
             </div>
         </div>
     )

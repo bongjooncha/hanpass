@@ -17,7 +17,7 @@
   width: 432px;
 }
 
-#cal #usual_wage {
+#cal .usual_wage {
   margin-left: 2%;
   width: 96%;
   height: 80px;
@@ -30,14 +30,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
-#cal #usual_wage a:nth-child(2) {
+
+#cal .usual_wage a:nth-child(2) {
   margin-left: 30px;
   color: rgb(83, 83, 255);
 }
 
-#cal #over_wage {
+#cal .over_wage {
   margin-left: 2%;
   width: 96%;
   height: 80px;
@@ -50,24 +52,52 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
-#cal #over_wage a:nth-child(2) {
+#cal .over_wage a:nth-child(2) {
   margin-left: 20px;
   color: rgb(255, 83, 83);
 }
 
-#cal .tt{
-  transform: translateY(-810px);
+.change{
+  display: none !important;
+}
+
+
+/* cal page */
+#cal #calpop{
+  transform: translateY(-730px);
   display: none;
+}
+#cal #calpop div{
+  background-color: rgb(255, 255, 255);
+  height: 70px;;
+  display: flex;
+  align-items: center;
+}
+
+#cal #calpop div img:nth-child(1){
+  width: 15px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+#cal .tt div h2{
+  font-size: 25px;
+}
+#cal .tt div img:nth-child(3){
+  width: 25px;
+  margin-left: 60%;
+  cursor: pointer;
 }
 
 #cal .rank{
   display: none;
-  transform: translateY(-810px);
+  transform: translateY(-730px);
 }
 
 .trshow{
-  display: inline !important;
+  display: block !important;
 }
 
