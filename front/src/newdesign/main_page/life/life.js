@@ -12,7 +12,7 @@ import travle from "../../../png/main_menu_img/travle.png";
 function Life(){
     return(
         <div id ="life">
-            <h3>생활 편의</h3>
+            <div id ="life_title"><h3>생활 편의</h3></div>
             <div id="main_life">
                 <div><img src={mobile}/><p>선불폰<br/>충전</p></div>
                 <div><img src={utility}/><p>공과금<br/>납부</p></div>

@@ -4,7 +4,9 @@ import arrow from "./arrow.JPG";
 function setting2() {
   function showSetting() {
     const setting2 = document.querySelector(".setting2");
+    const list = document.querySelector(".list");
     setting2.classList.remove("moveLeft");
+    list.classList.remove("moveLeft");
   }
 
   return (
@@ -15,7 +17,7 @@ function setting2() {
         </button>
         <h3>설정</h3>
       </div>
-      <ul>
+      <ul className="list">
         <li>알림</li>
         <li>언어 (Language)</li>
         <li>로그인 비밀번호 변경</li>

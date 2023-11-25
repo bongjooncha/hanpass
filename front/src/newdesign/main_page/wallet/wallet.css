@@ -102,14 +102,14 @@
 /* wallet */
 #wallet #wallet_img {
   margin-top: 13px;
-  width: 94%;
+  width: 432px;
 }
 
 /* qr */
 #wallet #qr {
   margin-top: 13px;
   margin-left: -0.5%;
-  width: 94%;
+  width: 92%;
   height: 100px;
   border-radius: 10px;
   background-color: rgb(4, 35, 79);
@@ -141,7 +141,7 @@
 #wallet #line4 {
   margin-top: 13px;
   margin-left: -0.5%;
-  width: 94%;
+  width: 92%;
   height: 110px;
   border-radius: 10px;
   background-color: rgb(214, 229, 252);

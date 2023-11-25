@@ -13,7 +13,7 @@ import Cal_page from "./main_page/cal/cal.js";
 import Event_page from "./main_page/event/event.js";
 
 import wal_ico from "../png/7/wal.png";
-import exch_ico from "../png/main_img/dollor_send.png";
+import exch_ico from "../png/main_img/dollor_send_b.png";
 import life_ico from "../png/6/life.png";
 import cal_ico from "../png/cal_ico.png";
 import event_ico from "../png/bot_nav_img/event.png";
@@ -31,7 +31,13 @@ function Main({ setPoped }) {
 
   function showSetting() {
     const setting2 = document.querySelector(".setting2");
+    const list = document.querySelector(".list");
     setting2.classList.add("moveLeft");
+    list.classList.add("moveLeft");
+  }
+  function showMyPage() {
+    const mypage = document.querySelector(".mypage");
+    mypage.classList.add("showmepage");
   }
 
   return (
@@ -50,7 +56,7 @@ function Main({ setPoped }) {
               <img id="bellimg" src={bell}></img>
             </li>
             <li>
-              <img id="mypageimg" src={mypage}></img>
+              <img id="mypageimg" src={mypage} onClick={()=>showMyPage()}></img>
             </li>
             <li
               onClick={() => {

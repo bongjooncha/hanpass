@@ -1,7 +1,7 @@
 import "./wallet.css";
 import React from "react";
 
-import wallet from "./mainimg/wallet.JPG";
+import wallet from "../../../png/origin_main_new.jpg";
 
 import qrget from "./mainimg/qrget.JPG";
 import qrgive from "./mainimg/qrgive.JPG";

@@ -1,0 +1,30 @@
+
+.mypage{
+    width: 432px;
+    /* position: fixed; */
+    transition: transform 0.5 ease;
+    transform: translate(0,-900px);
+    z-index: 6;
+    display: none;
+  }
+  .showmepage{
+    transform: translate(0,-1165px);
+  }
+  .mypage #mypage_title{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .mypage #mypage_title img:nth-child(1){
+    cursor: pointer;
+    width: 58px;
+  }
+  .mypage #mypage_title img:nth-child(3){
+    width: 35px;
+    margin-left: 60%;
+  }
+  
+  .mypage img{
+    width:432px
+  }

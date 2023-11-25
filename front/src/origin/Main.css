@@ -45,36 +45,10 @@
   margin-left: 245px;
 }
 
-/* hi user */
-.hiuser {
-  display: flex;
-  margin-top: 13px;
-  width: 100%;
-  height: 60px;
-  background-color: rgb(246, 246, 246);
-  font-weight: 800;
-  align-items: center;
-}
-
-#coun {
-  margin-left: 10px;
-  height: 60px;
-  width: 60px;
-  margin-right: 8px;
-}
-
-.hiuser p {
-  margin-right: 180px;
-}
-
-#ticket {
-  scale: 0.7;
-}
 
 /* wallet */
 main #wallet_img {
   margin-top: 13px;
-  width: 94%;
 }
 
 /* qr */

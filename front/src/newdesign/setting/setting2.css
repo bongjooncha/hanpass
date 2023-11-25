@@ -1,4 +1,8 @@
 /* setting */
+.setting2{
+  z-index: 2;
+}
+
 .setting2 #main{
   /* display: none; */
   display: flex;
@@ -29,23 +33,25 @@
 }
 
 
-
-
 .setting2 {
-  width: 432px;
+  width: 0px;
   background-color: white;
-  display: none;
+  transition: transform 0.5s ease;
+  transition: width 0.5s ease;
+  transform: translateX(-100%);
 }
 .moveLeft {
   display: flex;
   flex-direction: column;
-  transform: translateX(-100%);
+  width: 432px !important;
 }
 
-.setting2 ul {
-  width: 432px;
+.setting2 .list {
+  width: 0px;
   padding: 0 5%;
   margin: 0;
+  transition: width 0.5s ease;
+  transform: translateX(0) !important;
 }
 
 .setting2 ul li {

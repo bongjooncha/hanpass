@@ -8,8 +8,11 @@ function Menu() {
 
   function topmenu() {
     const leftmenu = document.querySelector(".menu");
-    leftmenu.classList.remove("active");
+    leftmenu.classList.remove("activee");
     handleSomeClick();
+    setTimeout(() => {
+      leftmenu.classList.remove("active");
+    }, 110);
   }
 
   function handleSomeClick() {

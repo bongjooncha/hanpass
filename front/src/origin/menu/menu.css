@@ -9,7 +9,10 @@
 
 .active{
   display: inline;
+}
+.activee{
   transform: translate(0,0);
+  transition: transform 0.5s ease;
 }
 
 #menunav{

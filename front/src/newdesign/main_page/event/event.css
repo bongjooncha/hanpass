@@ -1,6 +1,15 @@
+#event #event_title{
+    background-color: rgb(235, 235, 235);
+    height: 73px;
+    margin:0;
+    display: flex;
+    align-items: center;
+  }
+
 #event h3{
     text-align: left;
     margin-left: 20px;
+    font-size: 22px;
 }
 
 #event img{
