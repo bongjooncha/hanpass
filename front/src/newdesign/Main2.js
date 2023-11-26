@@ -6,6 +6,8 @@ import menu from "../png/main_img/menu.png";
 import mypage from "../png/main_img/mypage.png";
 import setting from "../png/setting.JPG";
 
+import chatimg from "../png/main_img/talk.png";
+
 import Wallet_page from "./main_page/wallet/Wallet.js";
 import Exchange_page from "./main_page/exchange/exchange.js";
 import Life_page from "./main_page/life/life.js";
@@ -71,6 +73,7 @@ function Main({ setPoped }) {
           <div id="main_content">{content}</div>
         </main>
         <navbar className="BottomNav2">
+          <img id="chatimg" src={chatimg}/>
           <ul>
             <li onClick={() => changeContent(Wallet_page)}>
               <div id="ico_wal">

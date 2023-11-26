@@ -47,6 +47,13 @@
   align-items: center;
 }
 
+.Main2 #chatimg{
+  z-index: 5;
+  width: 70px;
+  position: fixed;
+  transform: translate( 350px, -80px);
+}
+
 /* BOT Nav */
 /* main button */
 .BottomNav2 {
