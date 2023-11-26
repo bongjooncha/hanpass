@@ -35,6 +35,12 @@
   white-space: nowrap;
   list-style: none;
 }
+
+#exchange-label ul::-webkit-scrollbar {
+  background-color: none;
+  width: 2px;
+}
+
 #exchange-label ul li {
   display: inline;
 }

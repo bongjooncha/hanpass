@@ -81,7 +81,7 @@ function Main({ setPoped }) {
             <li onClick={() => changeContent(Exchange_page)}>
               <div id="ico_tran">
                 <img src={exch_ico} />
-                환전
+                송금
               </div>
             </li>
             <li onClick={() => changeContent(Life_page)}>
