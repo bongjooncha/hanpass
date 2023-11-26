@@ -7,9 +7,9 @@ import qrget from "./mainimg/qrget.JPG";
 import qrgive from "./mainimg/qrgive.JPG";
 import qrall from "../../../png/main_img/qr_w.png";
 
-import account from "../../../png/bot_nav_img/account.png";
-import logman from "../../../png/bot_nav_img/logman.png";
-import consen from "../../../png/main_img/won_send.png";
+import account from "../../../png/card.png";
+import logman from "../../../png/clock.png";
+import consen from "../../../png/won_send_b.png";
 
 function Wallet() {
   return (
@@ -67,7 +67,7 @@ function Wallet() {
         </div>
         <div>
           <img src={logman}></img>
-          <p>QR 송금하기</p>
+          <p>내역관리</p>
         </div>
         <div>
           <img src={consen}></img>

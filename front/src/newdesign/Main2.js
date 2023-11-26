@@ -56,7 +56,7 @@ function Main({ setPoped }) {
               <img id="bellimg" src={bell}></img>
             </li>
             <li>
-              <img id="mypageimg" src={mypage} onClick={()=>showMyPage()}></img>
+              <img id="mypageimg" src={mypage}></img>
             </li>
             <li
               onClick={() => {
