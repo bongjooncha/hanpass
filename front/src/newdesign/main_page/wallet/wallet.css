@@ -39,6 +39,7 @@
 #exchange-label ul::-webkit-scrollbar {
   background-color: none;
   width: 2px;
+  cursor: pointer;
 }
 
 #exchange-label ul li {
@@ -107,7 +108,7 @@
 
 /* wallet */
 #wallet #wallet_img {
-  margin-top: 13px;
+  margin-top: -18px;
   width: 432px;
 }
 
