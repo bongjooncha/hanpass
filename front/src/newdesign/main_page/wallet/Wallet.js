@@ -11,6 +11,8 @@ import account from "../../../png/card.png";
 import logman from "../../../png/clock.png";
 import consen from "../../../png/won_send_b.png";
 
+import chatimg from "../../../png/main_img/talk.png";
+
 function Wallet() {
   return (
     <div id="wallet">
@@ -73,6 +75,7 @@ function Wallet() {
           <img src={consen}></img>
           <p>국내송금<br/>보내기</p>
         </div>
+        <img id="chatimg" src={chatimg}/>
       </div>
     </div>
   );
