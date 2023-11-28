@@ -11,11 +11,6 @@ import line4 from "./mainimg/forthline.JPG";
 
 import nav from "./mainimg/nav.png";
 
-import m1 from "./botnav/m1.JPG";
-import m2 from "./botnav/m2.JPG";
-import m3 from "./botnav/m3.JPG";
-import m4 from "./botnav/m4.JPG";
-import m5 from "./botnav/m5.JPG";
 
 import Botnav from "./botnav/botnav.js";
 import chatImg from "../png/main_img/talk.png";

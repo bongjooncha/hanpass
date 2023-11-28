@@ -13,8 +13,6 @@ import Accman from "./page/accman/accman.js";
 import Logman from "./page/logman/logman.js";
 import Setting from "./page/setting/setting.js";
 
-import chatImg from "../../png/main_img/talk.png";
-
 function Botnav() {
   function handleSomeClick() {
     const lackup = document.querySelector(".lackup");
@@ -39,7 +37,7 @@ function Botnav() {
   // 높이 변환하기
   const [navHight, setNavHight] = useState(100);
   const exNav = () => {
-    setNavHight(1012);
+    setNavHight(1020);
     handleSomeClick();
   };
   const reNav = () => {
