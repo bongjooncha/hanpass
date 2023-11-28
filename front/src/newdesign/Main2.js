@@ -35,9 +35,14 @@ function Main({ setPoped }) {
     setting2.classList.add("moveLeft");
     list.classList.add("moveLeft");
   }
-  function showMyPage() {
-    const mypage = document.querySelector(".mypage");
-    mypage.classList.add("showmepage");
+
+  function changeColor(x){
+    const li = document.querySelectorAll(".BottomNav2 ul li");
+    li.forEach((item)=>{
+      item.classList.remove("clicked");
+    })
+    const selecLi = document.querySelector(x);
+    selecLi.classList.add("clicked");
   }
 
   return (
@@ -72,31 +77,31 @@ function Main({ setPoped }) {
         </main>
         <navbar className="BottomNav2">
           <ul>
-            <li onClick={() => changeContent(Wallet_page)}>
+            <li className="BN1 clicked" onClick={() => {changeContent(Wallet_page); changeColor(".BN1");} }>
               <div id="ico_wal">
                 <img src={wal_ico} />
                 월렛
               </div>
             </li>
-            <li onClick={() => changeContent(Exchange_page)}>
+            <li className="BN2" onClick={() => {changeContent(Exchange_page); changeColor(".BN2");}}>
               <div id="ico_tran">
                 <img src={exch_ico} />
                 송금
               </div>
             </li>
-            <li onClick={() => changeContent(Life_page)}>
+            <li className="BN3" onClick={() => {changeContent(Life_page); changeColor(".BN3");}}>
               <div id="ico_life">
                 <img src={life_ico} />
                 생활
               </div>
             </li>
-            <li onClick={() => changeContent(Cal_page)}>
+            <li className="BN4" onClick={() => {changeContent(Cal_page); changeColor(".BN4");}}>
               <div id="ico_cal">
                 <img src={cal_ico} />
                 달력
               </div>
             </li>
-            <li onClick={() => changeContent(Event_page)}>
+            <li className="BN5" onClick={() => {changeContent(Event_page); changeColor(".BN5");}}>
               <div id="ico_event">
                 <img src={event_ico} />
                 이벤트

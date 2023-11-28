@@ -93,3 +93,8 @@
   margin-bottom: 8px;
   width: 30px;
 }
+
+.clicked{
+  background-color: rgb(224, 224, 224);
+  font-weight: bolder !important ;
+}

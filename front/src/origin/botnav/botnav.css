@@ -5,6 +5,7 @@
 
   position: fixed;
   bottom: 0%;
+  transform: translateX(432px);
 
   display: block;
   background-color: #ffffff;
@@ -43,8 +44,8 @@
 }
 
 /* tab */
-#tab #main{
-  /* display: none; */
+ #tab #main{
+  display: none;
   display: flex;
   background-color: rgb(255, 255, 255);
   height: 73px;
@@ -70,4 +71,10 @@
 
 #tab #main h3{
   margin-left : 20px
+}   
+
+.chat_img{
+  width: 70px;
+  position:fixed;
+  transform: translate(780px, 730px);
 }
